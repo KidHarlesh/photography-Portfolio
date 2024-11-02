@@ -1,5 +1,5 @@
 import About from "./Components/About.jsx";
-import Booking from "./Components/Booking.jsx";
+// import Booking from "./Components/Booking.jsx";
 import Footer from "./Components/Footer.jsx";
 import Hero from "./Components/Hero.jsx"
 import Navbar from "./components/Navbar.jsx"
