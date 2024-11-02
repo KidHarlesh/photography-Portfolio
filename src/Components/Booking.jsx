@@ -65,20 +65,19 @@ const Booking = () => {
               contact form below, and we'll get back to you <br /> promptly.
             </p>
           </div>
-
           {/* form div */}
-
           <form action="">
             <div className="lg:flex items-center gap-[40px] lg:pt-[60px]">
               <div className="pb-[25px]">
                 <label
-                  for="Fname"
+                  htmlFor="Fname"
                   className="text-[#E4E4E6] text-[16px] font-normal "
                 >
                   First Name
                 </label>
                 <div className="bg-black border-b focus:outline-none border-[#1C1C21] pt-2">
                   <input
+                    id="Fname"
                     type="text"
                     name="fname"
                     placeholder="FIRST NAME"
@@ -90,13 +89,14 @@ const Booking = () => {
               {/* first form input div end */}
               <div className="pb-[25px]">
                 <label
-                  for="lname"
+                  htmlFor="lname"
                   className="text-[#E4E4E6] text-[16px] font-normal "
                 >
                   Last Name
                 </label>
                 <div className="bg-black border-b focus:outline-none border-[#1C1C21] pt-2 ">
                   <input
+                    id="lname"
                     type="text"
                     name="lname"
                     placeholder="LAST NAME"
@@ -110,13 +110,14 @@ const Booking = () => {
               {/* second form input div end */}
               <div className="pb-[25px]">
                 <label
-                  for="Email"
+                  htmlFor="Email"
                   className="text-[#E4E4E6] text-[16px] font-normal "
                 >
                   Email
                 </label>
                 <div className="bg-black border-b focus:outline-none border-[#1C1C21] pt-2 ">
                   <input
+                    id="Email"
                     type="Email"
                     name="email"
                     placeholder="EMAIL ADDRESS"
@@ -128,13 +129,14 @@ const Booking = () => {
               {/* third form input div end */}
               <div className="pb-[25px]">
                 <label
-                  for="Phone number"
+                  htmlFor="Phonenumber"
                   className="text-[#E4E4E6] text-[16px] font-normal "
                 >
                   Phone Number
                 </label>
                 <div className="bg-black border-b focus:outline-none border-[#1C1C21]  pt-2 ">
                   <input
+                    id="Phonenumber"
                     type="Number"
                     name="number"
                     placeholder="PHONE NUMBER"
@@ -147,13 +149,14 @@ const Booking = () => {
             {/* 4th form input div end */}
             <div className="pb-[25px] lg:border-b lg:pb-[0px] border-[#1C1C21]">
               <label
-                for="Your message"
+                htmlFor="Your message"
                 className="text-[#E4E4E6] text-[16px] font-normal "
               >
                 Your Message
               </label>
               <div className="bg-black border-b  lg:border-none focus:outline-none border-[#1C1C21]  pt-2 ">
                 <input
+                  id="Your message"
                   type="text"
                   name="Message "
                   placeholder="MESSAGE"

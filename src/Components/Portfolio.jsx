@@ -48,7 +48,7 @@ const Portfolio = () => {
         <div className="pt-[40px] lg:flex gap-[30px]">
           <div>
             <img
-              className="block mx-auto lg:mx-0 hover:scale-105 transition-transform duration-300 "
+              className="block mx-auto lg:mx-0 hover:scale-105 transition-transform duration-100 "
               src={African}
             />
             <div className="flex items-center lg:items-start justify-between pt-[16px]">
@@ -82,7 +82,7 @@ const Portfolio = () => {
           </div>
           <div className="hidden lg:block ">
             <img
-              className="hover:scale-105 transition-transform duration-300"
+              className="hover:scale-105 transition-transform duration-100"
               src={whitewoman}
             />
             <div className="flex items-center lg:items-start justify-between pt-[16px]">
@@ -104,7 +104,7 @@ const Portfolio = () => {
           </div>
           <div className="hidden lg:block">
             <img
-              className="hover:scale-105 transition-transform duration-300"
+              className="hover:scale-105 transition-transform duration-100"
               src={Carton}
             />
             <div className="flex items-center lg:items-start justify-between pt-[16px]">
