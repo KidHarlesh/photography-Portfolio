@@ -5,7 +5,7 @@ import Leftclick from "../assets/Left-Button.svg";
 import African from "../assets/Afican-Image.svg";
 import Direction from "../assets/Vector-Stroke.svg";
 import whitewoman from "../assets/white-image.svg";
-import Carton from "../assets/Carton-Image.svg";
+import Carton from "../assets/Carton.svg";
 import { Link } from "react-router-dom";
 
 const Portfolio = () => {
