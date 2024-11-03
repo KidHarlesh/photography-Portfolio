@@ -2,14 +2,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 *{
     font-family: "Manrope", sans-serif;
     box-sizing: border-box;
 }
 .container{
     @apply w-[90%] mx-auto
-}
-.mobilecontainer{
-    @apply w-[95%] mx-auto
 }
 

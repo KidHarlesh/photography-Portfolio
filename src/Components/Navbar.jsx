@@ -6,15 +6,15 @@ import Mobilelogo from "../assets/Mobile.logo.svg";
 const Navbar = () => {
   return (
     <section className=" bg-black text-[#AFB0B6]">
-      <div className=" container  ">
-        <nav className=" pl-[16px] lg:flex justify-between border-solid border border-[#2F2F37] border-y-0 items-center lg:px-[18px]   ">
+      <nav className=" fixed top-0 w-[100%] bg-black border-solid border-x-0 border-[#2F2F37] border-t-0 border-b  items-center lg:px-[18px] z-50  ">
+        <div className=" pl-4  container lg:flex justify-between  items-center border-x lg:px-[40px]  border-[#2F2F37] ">
           <div className=" flex justify-between  items-center pt-[40px]  lg:pt-[0px] ">
             <div>
               <Link>
                 <img srcSet={Mobilelogo} />
               </Link>
             </div>
-            <div className="md:block  border border-[#2F2F37] border-e-0 lg:hidden p-[20px] rounded-tl-xl    ">
+            <div className="md:block  border border-[#2F2F37] border-e-0 lg:hidden p-[20px] rounded-tl-xl  border-b-0   ">
               <img srcSet={Menu} alt="menu" />
             </div>
           </div>
@@ -37,8 +37,8 @@ const Navbar = () => {
               Contact Me
             </button>
           </div>
-        </nav>
-      </div>
+        </div>
+      </nav>
     </section>
   );
 };

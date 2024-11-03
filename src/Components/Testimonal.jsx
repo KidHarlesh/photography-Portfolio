@@ -66,12 +66,11 @@ const Testimonal = () => {
             </div>
           </div>
         </div>
-
         {/* textimonial speech */}
         <div className="flex justify-between items-center  border-t   border-[#1C1C21] gap-5  pt-[40px]">
           <div
             className="bg-cover p-[24px] mb-10  lg:border-none lg:pt-10 "
-            style={{ backgroundImage: `url(${Abstractimage})` }}
+            style={{ backgroundImage: `url(${Abstractimage})`}}
           >
             <div className=" flex justify-between items-center pb-5 ">
               <div>
@@ -156,7 +155,7 @@ const Testimonal = () => {
           </div>
           {/* 3rd image container */}
           <div
-            className="bg-cover p-[24px] mb-10  hidden lg:block"
+            className="bg-cover p-6 mb-10  hidden lg:block"
             style={{ backgroundImage: `url(${Abstractimage})` }}
           >
             <div className=" flex justify-between items-center pb-5 ">
