@@ -7,7 +7,7 @@ import Rating from "../assets/Star-Container.svg";
 import Rightclick from "../assets/Right-Button.svg";
 import Leftclick from "../assets/Left-Button.svg";
 import { GoArrowRight } from "react-icons/go";
-import Abstractimage from "../assets/Background-Design.svg";
+import Abstractimage from "../assets/Abstract-Design.png";
 
 const Testimonal = () => {
   return (
