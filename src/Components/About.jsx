@@ -1,11 +1,12 @@
 import React from "react";
 import { GoArrowRight } from "react-icons/go";
-import Image from "../assets/About-img.svg";
 import StarIcon from "../assets/Star-Icon.svg";
 import Facebook from "../assets/Facebook-Button.svg";
 import Twitter from "../assets/Twitter-button.svg";
 import Linkedin from "../assets/Linkedin-Button.svg";
 import { Link } from "react-router-dom";
+import Image from "../assets/About-image.png";
+
 const About = () => {
   return (
     <section className="  bg-black">

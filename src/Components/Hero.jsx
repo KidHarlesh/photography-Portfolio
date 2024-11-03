@@ -1,8 +1,8 @@
 import React from "react";
 import Vector from "../assets/Vector-img.svg";
 import Button from "../assets/Blue-Button.svg";
-import Heroimage from "../assets/Hero-image.svg";
 import { Link } from "react-router-dom";
+import Heroimagesection from "../assets/Hero-sectionimage.png";
 
 const Hero = () => {
   return (
@@ -33,7 +33,7 @@ const Hero = () => {
       </div>
       {/* for hero section image */}
       <div>
-        <img className="xl:block m-auto" src={Heroimage} />
+        <img className="xl:block m-auto" src={Heroimagesection} />
       </div>
     </section>
   );

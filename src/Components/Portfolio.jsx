@@ -2,10 +2,10 @@ import React from "react";
 import { GoArrowRight } from "react-icons/go";
 import Rightclick from "../assets/Right-Button.svg";
 import Leftclick from "../assets/Left-Button.svg";
-import African from "../assets/Afican-Image.svg";
+import African from "../assets/African-Image.png";
 import Direction from "../assets/Vector-Stroke.svg";
-import whitewoman from "../assets/white-image.svg";
-import Carton from "../assets/Carton.svg";
+import whitewoman from "../assets/white-Image.png";
+import Carton from "../assets/white-Image.png";
 import { Link } from "react-router-dom";
 
 const Portfolio = () => {
