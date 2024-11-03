@@ -31,14 +31,15 @@ const About = () => {
         <div className=" pt-[40px] lg:grid  lg:grid-cols-2 items-center justify-between gap-[20px] ">
           <img
             className=" pb-[20px] lg:pb-[0px] hover:animate-pulse "
-            src={Image}
+            srcSet={Image}
+            alt="image"
           />
           <div>
             {/*  introduction cntainer */}
             <div className=" grid  border border-[#1C1C21] rounded-t-lg p-[20px] lg:p-[18px] xl:lg:p-[28px]   text-[#CACACE] font-medium ">
               <p className="flex items-center text-[20px] lg:text-[18px] xl:lg:text-[26px] pb-[12px] ">
                 <span className=" pr-[5px]">
-                  <img className=" lg:w-6 xl:w-8 " src={StarIcon} />
+                  <img className=" lg:w-6 xl:w-8 " srcSet={StarIcon} />
                 </span>
                 Introduction
               </p>

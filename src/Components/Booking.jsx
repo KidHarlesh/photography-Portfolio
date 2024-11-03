@@ -33,13 +33,13 @@ const Booking = () => {
               <p className="text-[16px] font-medium text-[#F2F2F3] border-b border-[#1C1C21] ">
                 +1-123-456-7890
               </p>
-              <img className="w-4" src={Direction} />
+              <img className="w-4" srcSet={Direction} />
             </div>
             <div className="flex items-center pb-[40px] lg:pb-[0px] gap-[6px]">
               <p className=" text-[16px] font-medium text-[#F2F2F3] border-b border-[#1C1C21]">
                 info@damien braunphotography.com
               </p>
-              <img className="w-4" src={Direction} />
+              <img className="w-4" srcSet={Direction} />
             </div>
           </div>
         </div>
@@ -183,7 +183,7 @@ const Booking = () => {
             SEND MESSAGE
           </h1>
           <Link>
-            <img className="max-w-20 hover:animate-pulse " src={Button} />
+            <img className="max-w-20 hover:animate-pulse " srcSet={Button} />
           </Link>
         </div>
       </div>

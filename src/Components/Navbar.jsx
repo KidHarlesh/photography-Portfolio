@@ -11,11 +11,11 @@ const Navbar = () => {
           <div className=" flex justify-between  items-center pt-[40px]  lg:pt-[0px] ">
             <div>
               <Link>
-                <img src={Mobilelogo} />
+                <img srcSet={Mobilelogo} />
               </Link>
             </div>
             <div className="md:block  border border-[#2F2F37] border-e-0 lg:hidden p-[20px] rounded-tl-xl    ">
-              <img src={Menu} />
+              <img srcSet={Menu} alt="menu" />
             </div>
           </div>
           <ul className=" hidden  lg:flex justify-between  text-[14px]  font-normal  mt-[20px]  ">

@@ -33,7 +33,7 @@ const Portfolio = () => {
                   />
                   <img
                     className="w-12  lg:w-8  xl:w-12 transition-transform duration-300 active:translate-x-2"
-                    src={Rightclick}
+                    src={Rightclick} 
                   />
                 </div>
               </div>
@@ -49,7 +49,7 @@ const Portfolio = () => {
           <div>
             <img
               className="block mx-auto lg:mx-0 hover:scale-105 transition-transform duration-100 "
-              src={African}
+              srcSet={African} loading="lazy"
             />
             <div className="flex items-center lg:items-start justify-between pt-[16px]">
               <div>
@@ -62,7 +62,7 @@ const Portfolio = () => {
                 <button className="text-[20px] lg:text-[14px] text-[#F2F2F3] flex items-center  gap-[8px] font-light border-b border-[#1C1C21] ">
                   View Project
                   <span>
-                    <img className="w-4 xl:w-3" src={Direction} />
+                    <img className="w-4 xl:w-3" srcSet={Direction} />
                   </span>
                 </button>
               </div>
@@ -72,18 +72,18 @@ const Portfolio = () => {
             <div className="flex border border-[#1C1C21] p-2 gap-2  rounded-full ">
               <img
                 className="w-12 transition-transform duration-300 active:-translate-x-0.5 "
-                src={Leftclick}
+                srcSet={Leftclick}
               />
               <img
                 className="w-12 transition-transform duration-300 active:translate-x-1 "
-                src={Rightclick}
+                srcSet={Rightclick}
               />
             </div>
           </div>
           <div className="hidden lg:block ">
             <img
               className="hover:scale-105 transition-transform duration-100"
-              src={whitewoman}
+              srcSet={whitewoman} loading="lazy"
             />
             <div className="flex items-center lg:items-start justify-between pt-[16px]">
               <div>
@@ -105,7 +105,7 @@ const Portfolio = () => {
           <div className="hidden lg:block">
             <img
               className="hover:scale-105 transition-transform duration-100"
-              src={Carton}
+              srcSet={Carton} loading="lazy"
             />
             <div className="flex items-center lg:items-start justify-between pt-[16px]">
               <div>

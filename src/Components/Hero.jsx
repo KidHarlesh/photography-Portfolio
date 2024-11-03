@@ -17,14 +17,14 @@ const Hero = () => {
           </h1>
         </div>
         <div className="hidden lg:block ">
-          <img className=" max-w-[90%]" src={Vector} alt="" />
+          <img className=" max-w-[90%]" srcSet={Vector} alt="image" />
         </div>
         <div>
           <h1 className=" text-[39px] text-[#FFFFFF] font-semibold ">
             <span className="flex gap-3 items-center">
               Let’s
               <Link>
-                <img className="max-w-20 animate-bounce " src={Button} />
+                <img className="max-w-20 animate-bounce " srcSet={Button} />
               </Link>
             </span>
             Work Together
@@ -33,7 +33,7 @@ const Hero = () => {
       </div>
       {/* for hero section image */}
       <div>
-        <img className="xl:block m-auto" src={Heroimagesection} />
+        <img srcSet={Heroimagesection} loading="lazy"  />
       </div>
     </section>
   );
