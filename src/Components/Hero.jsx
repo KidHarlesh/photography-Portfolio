@@ -6,7 +6,7 @@ import Heroimagesection from "../assets/Hero-sectionimage.png";
 
 const Hero = () => {
   return (
-    <section className=" bg-black  border-solid  border-[#2F2F37] border-x-0 pt-[80px]  ">
+    <section className=" bg-black  border-solid  border-[#2F2F37] border-x-0 pt-[80px] lg:pt-40  ">
       <div className="gap-[20px] grid container lg:flex  justify-between items-center ">
         <div className="pt-[40px] lg:pt-0">
           <h1 className=" text-[14px] font-normal lg:text-[16px] lg:font-medium text-[#62646C]">
@@ -24,7 +24,10 @@ const Hero = () => {
             <span className="flex gap-3 items-center">
               Let’s
               <Link>
-                <img className="max-w-20 animate-bounce " srcSet={Button} />
+                <img
+                  className="max-w-14 lg:max-w-20  animate-bounce "
+                  srcSet={Button}
+                />
               </Link>
             </span>
             Work Together
@@ -33,7 +36,7 @@ const Hero = () => {
       </div>
       {/* for hero section image */}
       <div>
-        <img srcSet={Heroimagesection} loading="lazy"  />
+        <img srcSet={Heroimagesection} loading="lazy" />
       </div>
     </section>
   );

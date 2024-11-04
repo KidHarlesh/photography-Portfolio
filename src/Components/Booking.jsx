@@ -6,7 +6,6 @@ import Button from "../assets/Blue-Button.svg";
 const Booking = () => {
   return (
     <section className="bg-black">
-      <div></div>
       <div className="container pb-5">
         {/* up div */}
         <div className="border-y  border-[#1C1C21] pt-[40px] lg:py-[60px]  lg:flex  lg:gap-[60px]  lg:items-center ">
@@ -167,7 +166,6 @@ const Booking = () => {
               </div>
             </div>
             
-
             <div className="hidden lg:block  pt-[50px]">
               <div className=" flex  items-center gap-[6px]  border-b  border-[#1C1C21]  ">
                 <h1 className="text-[28px] font-semibold text-[#FFFFFF] ">
@@ -181,7 +179,7 @@ const Booking = () => {
           </form>
         </div>
         {/* form div ends */}
-        <div className="flex  items-center gap-[6px]  border-b border-[#1C1C21]  lg:hidden">
+        <div className="flex  items-center gap-[6px]  lg:hidden">
           <h1 className="text-[28px] font-semibold text-[#FFFFFF]">
             SEND MESSAGE
           </h1>

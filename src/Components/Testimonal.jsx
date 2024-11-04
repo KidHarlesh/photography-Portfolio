@@ -70,7 +70,7 @@ const Testimonal = () => {
         <div className="flex justify-between items-center  border-t   border-[#1C1C21] gap-5  pt-[40px]">
           <div
             className="bg-cover p-[24px] mb-10  lg:border-none lg:pt-10 "
-            style={{ backgroundImage: `url(${Abstractimage})`}}
+            style={{ backgroundImage: `url(${Abstractimage})` }}
           >
             <div className=" flex justify-between items-center pb-5 ">
               <div>
@@ -81,7 +81,7 @@ const Testimonal = () => {
                   USA,California
                 </p>
               </div>
-              <div className=" border border-[#1C1C21] flex w-fit rounded-full   p-[8px]  xl:p-[13px]  gap-[6px]   ">
+              <div className=" border border-[#1C1C21] flex w-fit rounded-full   p-[8px]  xl:p-[13px]  gap-[6px] bg-black   ">
                 <Link>
                   <img
                     className="w-10 lg:w-6 xl:w-8  hover:bg-[#1C1C21]  hover:text-[#bfbfbf] rounded-lg transition delay-150 duration-100 ease-in-out"
@@ -124,7 +124,7 @@ const Testimonal = () => {
                   USA, California
                 </p>
               </div>
-              <div className=" border border-[#1C1C21] flex w-fit rounded-full   p-[8px]  xl:p-[13px]  gap-[6px]   ">
+              <div className=" border border-[#1C1C21] flex w-fit rounded-full   p-[8px]  xl:p-[13px]  gap-[6px] bg-black   ">
                 <Link>
                   <img
                     className="w-10 lg:w-6 xl:w-8  hover:bg-[#1C1C21]  hover:text-[#bfbfbf] rounded-lg transition delay-150 duration-300 ease-in-out"
@@ -167,7 +167,7 @@ const Testimonal = () => {
                   USA,California
                 </p>
               </div>
-              <div className=" border border-[#1C1C21] flex w-fit rounded-full   p-[8px]  xl:p-[13px]  gap-[6px]   ">
+              <div className=" border border-[#1C1C21] flex w-fit rounded-full   p-[8px]  xl:p-[13px]  gap-[6px]  bg-black  ">
                 <Link>
                   <img
                     className="w-10 lg:w-6 xl:w-8  hover:bg-[#1C1C21]  hover:text-[#bfbfbf] rounded-lg transition delay-150 duration-300 ease-in-out"
