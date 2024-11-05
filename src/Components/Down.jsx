@@ -15,21 +15,21 @@ import Right from "../assets/Right-Abstract.svg";
 const Down = () => {
   return (
     <footer className=" bg-black pt-20">
-      <div className="flex justify-end pb-5 lg:pb-16">
+      <div className="flex justify-end pb-5 lg:pb-16 container">
         <img
-          className="w-[315px] lg:w-[926px]  xl h-14  lg:h-[169px]"
+          className="w-[315px] lg:w-[926px]  xl h-14  lg:h-[169px] "
           srcSet={Sidelogo}
         />
       </div>
-      <div className="lg:hidden">
+      <div className="lg:hidden ">
         <img className="w-[100%]  h-18 " src={long} />
       </div>
-      <div className="hidden lg:block">
+      <div className="hidden lg:flex  justify-center">
         <img srcSet={laptop} />
       </div>
       {/* 1st footer div */}
       <div className="flex   items-center">
-        <div className="hidden lg:block">
+        <div className="hidden lg:block ">
           <img className="  h-[187px]" srcSet={Left} />
         </div>
         <div className="container lg:grid lg:items-start lg:grid-cols-2 ">
@@ -148,10 +148,7 @@ const Down = () => {
         </div>
 
         <div>
-          <img
-            className="hidden lg:block  h-[187px]"
-            srcSet={Right}
-          />
+          <img className="hidden lg:block  h-[187px]" srcSet={Right} />
         </div>
       </div>
 

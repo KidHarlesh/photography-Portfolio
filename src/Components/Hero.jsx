@@ -6,7 +6,7 @@ import Heroimagesection from "../assets/Hero-sectionimage.png";
 
 const Hero = () => {
   return (
-    <section className=" bg-black  border-solid  border-[#2F2F37] border-x-0 pt-[80px] lg:pt-40  ">
+    <section className=" bg-black  border-solid  border-[#2F2F37] border-x-0 pt-[80px] lg:pt-20  ">
       <div className="gap-[20px] grid container lg:flex  justify-between items-center ">
         <div className="pt-[40px] lg:pt-0">
           <h1 className=" text-[14px] font-normal lg:text-[16px] lg:font-medium text-[#62646C]">
@@ -33,9 +33,10 @@ const Hero = () => {
             Work Together
           </h1>
         </div>
+        
       </div>
       {/* for hero section image */}
-      <div>
+      <div className="container">
         <img srcSet={Heroimagesection} loading="lazy" />
       </div>
     </section>

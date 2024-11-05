@@ -1,21 +1,14 @@
-import About from "./Components/About.jsx"
-import Booking from "./Components/Booking.jsx"
-import Down from "./Components/Down.jsx"
-import Hero from "./Components/Hero.jsx"
-import Navbar from "./Components/Navbar.jsx"
-import Portfolio from "./Components/Portfolio.jsx"
-import Testimonal from "./Components/Testimonal.jsx"
+import { Route, Routes } from "react-router-dom"
+import Home from "./pages/Home";
+import AboutUs from "./pages/AboutUs";
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <Hero />
-      <About />
-      <Portfolio />
-      <Testimonal />
-      <Booking />
-      <Down/>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<AboutUs />} />
+      </Routes>
     </div>
   );
 }

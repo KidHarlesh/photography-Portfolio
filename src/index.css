@@ -10,4 +10,7 @@
 .container{
     @apply w-[90%] mx-auto
 }
+.active{
+    background-color: #1C1C21;
+}
 
