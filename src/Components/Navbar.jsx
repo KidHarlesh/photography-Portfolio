@@ -9,7 +9,6 @@ const Navbar = () => {
   const handleNav = () => {
     setNav(!nav);
   };
-
   return (
     <section className=" bg-black text-[#AFB0B6]">
       <nav className=" fixed top-0 w-full bg-black border-solid border-x-0 border-[#2F2F37] border-t-0 border-b    z-50   ">
