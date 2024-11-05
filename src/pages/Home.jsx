@@ -1,18 +1,17 @@
-import React from 'react'
-import Navbar from '../components/Navbar';
-import Hero from '../Components/Hero';
-import About from '../Components/About';
-import Portfolio from '../Components/Portfolio';
-import Testimonal from '../Components/Testimonal';
-import Booking from '../Components/Booking';
-import Down from '../Components/Down';
+import React from "react";
+import Navbar from "../components/Navbar";
+import About from "../components/About";
+import Testimonal from "../components/Testimonal";
+import Booking from "../components/Booking";
+import Portfolio from "../Components/Portfolio";
+import Down from "../Components/Down";
+import Hero from "../Components/Hero";
 
 const Home = () => {
   return (
     <div>
-        
       <Navbar />
-      <Hero/>
+      <Hero />
       <About />
       <Portfolio />
       <Testimonal />
@@ -20,6 +19,6 @@ const Home = () => {
       <Down />
     </div>
   );
-}
+};
 
-export default Home
+export default Home;
