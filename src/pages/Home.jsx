@@ -7,11 +7,12 @@ import Portfolio from "../Components/Portfolio";
 import Down from "../Components/Down";
 import Hero from "../Components/Hero";
 
+
 const Home = () => {
   return (
     <div>
       <Navbar />
-      <Hero />
+      <Hero/>
       <About />
       <Portfolio />
       <Testimonal />
