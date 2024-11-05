@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom"
-import Home from "./pages/Home";
-import AboutUs from "./pages/AboutUs";
+import Home from "./pages/Home"
+import AboutUs from "./pages/AboutUs"
 
 function App() {
   return (

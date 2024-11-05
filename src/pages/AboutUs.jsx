@@ -1,7 +1,7 @@
 import React from "react";
+import Navbar from "../components/Navbar";
 import About from "../components/About";
 import Testimonal from "../components/Testimonal";
-import Navbar from "../components/Navbar";
 import Down from "../Components/Down";
 
 
@@ -9,9 +9,9 @@ const AboutUs = () => {
   return (
     <div>
       <Navbar/>
-      <About/>
+      <About />
       <Testimonal />
-      <Down/>
+      <Down />
     </div>
   );
 };

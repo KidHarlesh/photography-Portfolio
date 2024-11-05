@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react'
+import { Link } from 'react-router-dom';
 import Direction from "../assets/Vector-Stroke.svg";
-import { Link } from "react-router-dom";
 import Button from "../assets/Blue-Button.svg";
 
-const Booking = () => {
+const Book = () => {
   return (
     <section className="bg-black">
       <div className="container pb-5">
@@ -165,7 +165,7 @@ const Booking = () => {
                 />
               </div>
             </div>
-            
+
             <div className="hidden lg:block  pt-[50px]">
               <div className=" flex  items-center gap-[6px]  border-b  border-[#1C1C21]  ">
                 <h1 className="text-[28px] font-semibold text-[#FFFFFF] ">
@@ -190,6 +190,6 @@ const Booking = () => {
       </div>
     </section>
   );
-};
+}
 
-export default Booking;
+export default Book
