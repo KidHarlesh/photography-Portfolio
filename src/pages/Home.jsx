@@ -1,25 +1,22 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import Hero from "../Components/Hero";
 import About from "../components/About";
-import Portfolio from "../Components/Portfolio";
-import Testimonal from "../components/Testimonal";
-import Down from "../Components/Down";
-import Book from "../Components/Book";
-
-
-
+import Portfolio from "../components/Portfolio";
+import Testimonial from "../components/Testimonial";
+import Heroo from "../components/Heroo";
+import Booken from "../components/Booken";
+import Foot from "../components/Foot";
 
 const Home = () => {
   return (
     <div>
       <Navbar />
-      <Hero />
-      <About/>
+      <Heroo />
+      <About />
       <Portfolio />
-      <Testimonal />
-      <Book />
-      <Down />
+      <Testimonial />
+      <Booken />
+      <Foot />
     </div>
   );
 };

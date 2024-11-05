@@ -6,7 +6,7 @@ import Twitter from "../assets/Twitter-button.svg";
 import Linkedin from "../assets/Linkedin-Button.svg";
 import { Link } from "react-router-dom";
 import Image from "../assets/About-image.png";
-import cv from "../assets/alowoesin-cv.pdf"
+import cv from "../assets/alowoesin-cv.pdf";
 
 const About = () => {
   return (
@@ -103,12 +103,12 @@ const About = () => {
                   </Link>
                 </div>
                 <div className="pt-[20px] lg:pt-[0px]   px-[0px] lg:px-[16px] grid   lg:grid-cols-2  gap-5 lg:items-center lg:gap-4">
-                  <Link >
+                  <Link>
                     <button className="text-[14] lg:text-[12px] font-medium text-[#FFFFFF] bg-[#1C1C21] text-center px-[104px] lg:px-[25px] xl:px-[40px] py-[14px] lg:py-[12px] xl:py-[16px]  rounded-xl hover:bg-[#232323] ">
                       Let’s Work
                     </button>
                   </Link>
-                  <a href={cv} download >
+                  <a href={cv} download>
                     <button className="text-[14px] lg:text-[12px] font-medium text-[#FFFFFF] bg-[#1C1C21] text-center px-[100px] lg:px-[20px] xl:px-[30px]  py-[14px]  lg:py-[12px] xl:py-[16px] rounded-xl  hover:bg-[#232323] ">
                       Download CV
                     </button>

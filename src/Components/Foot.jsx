@@ -10,9 +10,7 @@ import laptop from "../assets/long-Contain.svg";
 import Left from "../assets/left-Abstract.svg";
 import Right from "../assets/Right-Abstract.svg";
 
-
-
-const Down = () => {
+const Foot = () => {
   return (
     <footer className=" bg-black pt-20">
       <div className="flex justify-end pb-5 lg:pb-16 container">
@@ -52,7 +50,6 @@ const Down = () => {
               </h1>
             </div>
           </div>
-
           {/* 2nd footer div */}
           <div className="  border border-[#1C1C21] px-5 py-10 lg:px-[50px]   lg:py-[80px]  ">
             {/* Footer Links */}
@@ -75,7 +72,6 @@ const Down = () => {
                     </li>
                   </nav>
                 </div>
-
                 {/* Client Navbar */}
                 <div className="">
                   <h2 className="text-[14px] font-semibold text-[#797C86] mb-4 lg:mb-[20px] ">
@@ -97,7 +93,6 @@ const Down = () => {
                   </nav>
                 </div>
               </div>
-
               {/* Portfolio Navbar */}
               <div className="grid grid-cols-2 gap-12 lg:gap-[100px]  pr-20 pl-5 ">
                 <div>
@@ -122,7 +117,6 @@ const Down = () => {
                     </li>
                   </nav>
                 </div>
-
                 {/* Services Navbar */}
                 <div>
                   <h2 className="text-[14px] font-semibold text-[#797C86] mb-4 lg:mb-[20px]">
@@ -143,15 +137,12 @@ const Down = () => {
               </div>
             </div>
           </div>
-
           {/* div for nav end */}
         </div>
-
         <div>
           <img className="hidden lg:block  h-[187px]" srcSet={Right} />
         </div>
       </div>
-
       {/* first footer end */}
       <div className="p-5">
         <div className="flex justify-center">
@@ -192,4 +183,4 @@ const Down = () => {
   );
 };
 
-export default Down;
+export default Foot;
