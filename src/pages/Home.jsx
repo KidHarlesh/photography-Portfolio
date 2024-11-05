@@ -1,5 +1,5 @@
 import React from "react"
-import Navbar from "../components/Navbar"
+// import Navbar from "../components/Navbar"
 import About from "../components/About"
 import Portfolio from "../components/Portfolio"
 import Testimonial from "../components/Testimonial"
@@ -10,7 +10,7 @@ import Foot from "../components/Foot"
 const Home = () => {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <Heroo />
       <About />
       <Portfolio />
