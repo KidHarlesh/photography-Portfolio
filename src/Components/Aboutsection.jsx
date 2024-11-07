@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react'
 import { GoArrowRight } from "react-icons/go"
 import StarIcon from "../assets/Star-Icon.svg"
 import Facebook from "../assets/Facebook-Button.svg"
@@ -8,7 +8,7 @@ import { Link } from "react-router-dom"
 import Image from "../assets/About-image.png"
 import cv from "../assets/alowoesin-cv.pdf"
 
-const About = () => {
+const Aboutsection = () => {
   return (
     <section className="  bg-black">
       <div className=" container pt-[80px] pb-[100px] lg:pb-[100px]">
@@ -123,4 +123,6 @@ const About = () => {
   );
 }
 
-export default About
+export default Aboutsection
+
+

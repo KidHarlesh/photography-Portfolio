@@ -1,8 +1,9 @@
-import React, { useState } from "react"
-import { Link, NavLink } from "react-router-dom"
-import Mobilelogo from "../assets/Mobile.logo.svg"
-import { FaBars } from "react-icons/fa"
-import { IoClose } from "react-icons/io5"
+import React from 'react'
+import React, { useState } from "react";
+import { Link, NavLink } from "react-router-dom";
+import Mobilelogo from "../assets/Mobile.logo.svg";
+import { FaBars } from "react-icons/fa";
+import { IoClose } from "react-icons/io5";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -105,3 +106,9 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+
+
+
+
+ 

@@ -1,19 +1,19 @@
-import React from "react"
-import Navbar from "../components/Navbar"
-import Testimonial from "../components/Testimonial"
-import Foot from "../components/Foot"
-import About from "../Components/About"
+import React from "react";
 
+import Testimonial from "../components/Testimonial";
+import Foot from "../components/Foot";
+import Aboutsection from "../components/Aboutsection";
+import Navbar from "../components/Navbar";
 
 const AboutUs = () => {
   return (
     <div>
-      <Navbar />
-      <About />
+     <Navbar/>
+     <Aboutsection/>
       <Testimonial />
       <Foot />
     </div>
   );
-}
+};
 
-export default AboutUs
+export default AboutUs;
