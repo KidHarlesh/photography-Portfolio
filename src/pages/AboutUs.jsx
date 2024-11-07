@@ -1,8 +1,8 @@
-import React from "react";
-import Navbar from "../components/Navbar";
-import About from "../components/About";
-import Testimonial from "../components/Testimonial";
-import Foot from "../components/Foot";
+import React from "react"
+import Navbar from "../components/Navbar"
+import Testimonial from "../components/Testimonial"
+import Foot from "../components/Foot"
+import About from "../Components/About"
 
 
 const AboutUs = () => {
@@ -14,6 +14,6 @@ const AboutUs = () => {
       <Foot />
     </div>
   );
-};
+}
 
-export default AboutUs;
+export default AboutUs

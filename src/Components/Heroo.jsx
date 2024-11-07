@@ -1,8 +1,8 @@
 import React from 'react'
-import Vector from "../assets/Vector-img.svg";
-import Button from "../assets/Blue-Button.svg";
-import { Link } from "react-router-dom";
-import Heroimagesection from "../assets/Hero-sectionimage.png";
+import Vector from "../assets/Vector-img.svg"
+import Button from "../assets/Blue-Button.svg"
+import { Link } from "react-router-dom"
+import Heroimagesection from "../assets/Hero-sectionimage.png"
 
 const Heroo = () => {
   return (

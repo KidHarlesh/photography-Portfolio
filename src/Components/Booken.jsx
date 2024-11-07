@@ -1,9 +1,9 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from "react"
+import { Link } from "react-router-dom"
 
 // Assets
-import Direction from "../assets/Vector-Stroke.svg";
-import Button from "../assets/Blue-Button.svg";
+import Direction from "../assets/Vector-Stroke.svg"
+import Button from "../assets/Blue-Button.svg"
 
 // Components
 const ContactInfo = ({ value }) => (
@@ -169,6 +169,6 @@ const Booken = () => {
       </div>
     </section>
   );
-};
+}
 
-export default Booken;
+export default Booken

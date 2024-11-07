@@ -1,13 +1,13 @@
 import React from 'react'
-import { Link } from "react-router-dom";
-import Facebook from "../assets/Facebook-Button.svg";
-import Twitter from "../assets/Twitter-button.svg";
-import Linkedin from "../assets/Linkedin-Button.svg";
-import Rating from "../assets/Star-Container.svg";
-import Rightclick from "../assets/Right-Button.svg";
-import Leftclick from "../assets/Left-Button.svg";
-import { GoArrowRight } from "react-icons/go";
-import Abstractimage from "../assets/Abstract-Design.png";
+import { Link } from "react-router-dom"
+import Facebook from "../assets/Facebook-Button.svg"
+import Twitter from "../assets/Twitter-button.svg"
+import Linkedin from "../assets/Linkedin-Button.svg"
+import Rating from "../assets/Star-Container.svg"
+import Rightclick from "../assets/Right-Button.svg"
+import Leftclick from "../assets/Left-Button.svg"
+import { GoArrowRight } from "react-icons/go"
+import Abstractimage from "../assets/Abstract-Design.png"
 
 const Testimonial = () => {
   return (
@@ -211,7 +211,7 @@ const Testimonial = () => {
   </div>
 </section>
   );
-};
+}
 
-export default Testimonial;
+export default Testimonial
 
