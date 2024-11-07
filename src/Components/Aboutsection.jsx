@@ -119,6 +119,7 @@ const Aboutsection = () => {
           </div>
         </div>
       </div>
+      {/* <p>hello</p> */}
     </section>
   );
 }
