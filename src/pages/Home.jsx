@@ -1,11 +1,12 @@
 import React from "react";
-import Navbar from "../components/Navbar";
-import HeroSection from "../components/HeroSection";
-import Aboutsection from "../components/Aboutsection";
-import Portfoliosection from "../components/Portfoliosection";
-import Testimonialsection from "../components/Testimonialsection";
-import Footsection from "../components/Footsection";
-import Booking from "../components/Booking";
+// import Navbar from "../components/Navbar";
+import HeroSection from "../blocks/HeroSection";
+import Aboutsection from "../blocks/Aboutsection";
+import Portfoliosection from "../blocks/Portfoliosection";
+import Testimonialsection from "../blocks/Testimonialsection";
+import Footsection from "../blocks/Footsection";
+import Booking from "../blocks/Booking";
+import Navbar from "../blocks/Navbar";
 
 
 const Home = () => {
