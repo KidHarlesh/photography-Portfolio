@@ -1,24 +1,25 @@
 import React from "react";
-import Booken from "../components/Booken";
-import Aboutsection from "../components/Aboutsection";
 import Navbar from "../components/Navbar";
+import HeroSection from "../components/HeroSection";
+import Aboutsection from "../components/Aboutsection";
 import Portfoliosection from "../components/Portfoliosection";
 import Testimonialsection from "../components/Testimonialsection";
 import Footsection from "../components/Footsection";
-import HeroSection from "../components/HeroSection";
+import Booking from "../components/Booking";
+
 
 const Home = () => {
   return (
     <div>
       <Navbar />
-      <HeroSection/>
+      <HeroSection />
       <Aboutsection />
       <Portfoliosection />
-      <Testimonialsection/>
-      <Booken />
-      <Footsection/>
+      <Testimonialsection />
+      <Booking/>
+      <Footsection />
     </div>
-  );
-};
+  )
+}
 
 export default Home;

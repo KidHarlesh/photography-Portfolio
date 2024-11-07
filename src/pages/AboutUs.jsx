@@ -1,5 +1,4 @@
 import React from "react";
-
 import Aboutsection from "../components/Aboutsection";
 import Navbar from "../components/Navbar";
 import Testimonialsection from "../components/Testimonialsection";
@@ -11,7 +10,7 @@ const AboutUs = () => {
       <Navbar />
       <Aboutsection />
       <Testimonialsection />
-      <Footsection/>
+      <Footsection />
     </div>
   );
 };

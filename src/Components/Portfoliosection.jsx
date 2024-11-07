@@ -1,12 +1,12 @@
-import React from 'react'
-import { GoArrowRight } from "react-icons/go"
-import Rightclick from "../assets/Right-Button.svg"
-import Leftclick from "../assets/Left-Button.svg"
-import African from "../assets/African-Image.png"
-import Direction from "../assets/Vector-Stroke.svg"
-import whitewoman from "../assets/white-Image.png"
-import Carton from "../assets/Carton-Image.png"
-import { Link } from "react-router-dom"
+import React from "react";
+import { GoArrowRight } from "react-icons/go";
+import Rightclick from "../assets/Right-Button.svg";
+import Leftclick from "../assets/Left-Button.svg";
+import African from "../assets/African-Image.png";
+import Direction from "../assets/Vector-Stroke.svg";
+import whitewoman from "../assets/white-Image.png";
+import Carton from "../assets/Carton-Image.png";
+import { Link } from "react-router-dom";
 
 const Portfoliosection = () => {
   return (
@@ -131,8 +131,6 @@ const Portfoliosection = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Portfoliosection
-
-
+export default Portfoliosection;

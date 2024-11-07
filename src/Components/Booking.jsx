@@ -1,38 +1,36 @@
-import React from "react"
-import { Link } from "react-router-dom"
+import React from "react";
+import { Link } from "react-router-dom";
 
 // Assets
-import Direction from "../assets/Vector-Stroke.svg"
-import Button from "../assets/Blue-Button.svg"
+import Direction from "../assets/Vector-Stroke.svg";
+import Button from "../assets/Blue-Button.svg";
 
-// Components
-const ContactInfo = ({ value }) => (
-  <div className="flex items-center gap-[6px]">
-    <p className="text-[16px] font-medium text-[#F2F2F3] border-b border-[#1C1C21]">
-      {value}
-    </p>
-    <img className="w-4" src={Direction} alt="Direction icon" />
-  </div>
-);
-
-const FormInput = ({ id, label, type, placeholder }) => (
-  <div className="pb-[25px]">
-    <label htmlFor={id} className="text-[#E4E4E6] text-[16px] font-normal">
-      {label}
-    </label>
-    <div className="bg-black border-b focus:outline-none border-[#1C1C21] pt-2">
-      <input
-        id={id}
-        type={type}
-        name={id}
-        placeholder={placeholder}
-        className="bg-black focus:outline-none placeholder:text-[18px] text-[#62646c] font-normal py-[10px] w-full"
-      />
+const Booking = () => {
+  const ContactInfo = ({ value }) => (
+    <div className="flex items-center gap-[6px]">
+      <p className="text-[16px] font-medium text-[#F2F2F3] border-b border-[#1C1C21]">
+        {value}
+      </p>
+      <img className="w-4" src={Direction} alt="Direction icon" />
     </div>
-  </div>
-);
+  );
 
-const Booken = () => {
+  const FormInput = ({ id, label, type, placeholder }) => (
+    <div className="pb-[25px]">
+      <label htmlFor={id} className="text-[#E4E4E6] text-[16px] font-normal">
+        {label}
+      </label>
+      <div className="bg-black border-b focus:outline-none border-[#1C1C21] pt-2">
+        <input
+          id={id}
+          type={type}
+          name={id}
+          placeholder={placeholder}
+          className="bg-black focus:outline-none placeholder:text-[18px] text-[#62646c] font-normal py-[10px] w-full"
+        />
+      </div>
+    </div>
+  );
   return (
     <section className="bg-black">
       <div className="container pb-5">
@@ -169,6 +167,6 @@ const Booken = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Booken
+export default Booking;
