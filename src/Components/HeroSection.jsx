@@ -1,10 +1,10 @@
-import React from 'react'
-import Vector from "../assets/Vector-img.svg"
-import Button from "../assets/Blue-Button.svg"
-import { Link } from "react-router-dom"
-import Heroimagesection from "../assets/Hero-sectionimage.png"
+import React from "react";
+import Vector from "../assets/Vector-img.svg";
+import Button from "../assets/Blue-Button.svg";
+import { Link } from "react-router-dom";
+import Heroimagesection from "../assets/Hero-sectionimage.png";
 
-const Heroo = () => {
+const HeroSection = () => {
   return (
     <section className=" bg-black  border-solid  border-[#2F2F37] border-x-0 pt-[80px] lg:pt-20  ">
       <div className="gap-[20px] grid container lg:flex  justify-between items-center ">
@@ -42,4 +42,4 @@ const Heroo = () => {
   );
 };
 
-export default Heroo;
+export default HeroSection;

@@ -1,18 +1,17 @@
 import React from "react";
-import Heroo from "../components/Heroo";
 import Booken from "../components/Booken";
-
 import Aboutsection from "../components/Aboutsection";
 import Navbar from "../components/Navbar";
 import Portfoliosection from "../components/Portfoliosection";
 import Testimonialsection from "../components/Testimonialsection";
 import Footsection from "../components/Footsection";
+import HeroSection from "../components/HeroSection";
 
 const Home = () => {
   return (
     <div>
       <Navbar />
-      <Heroo />
+      <HeroSection/>
       <Aboutsection />
       <Portfoliosection />
       <Testimonialsection/>
