@@ -1,16 +1,17 @@
 import React from "react";
 
-import Testimonial from "../components/Testimonial";
+
 import Foot from "../components/Foot";
 import Aboutsection from "../components/Aboutsection";
 import Navbar from "../components/Navbar";
+import Testimonialsection from "../components/Testimonialsection";
 
 const AboutUs = () => {
   return (
     <div>
-     <Navbar/>
-     <Aboutsection/>
-      <Testimonial />
+      <Navbar />
+      <Aboutsection />
+      <Testimonialsection/>
       <Foot />
     </div>
   );
