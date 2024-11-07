@@ -1,12 +1,11 @@
 import React from "react";
-
-import Portfolio from "../components/Portfolio";
 import Testimonial from "../components/Testimonial";
 import Heroo from "../components/Heroo";
 import Booken from "../components/Booken";
 import Foot from "../components/Foot";
 import Aboutsection from "../components/Aboutsection";
 import Navbar from "../components/Navbar";
+import Portfoliosection from "../components/Portfoliosection";
 
 
 const Home = () => {
@@ -15,7 +14,7 @@ const Home = () => {
       <Navbar/>
       <Heroo />
       <Aboutsection/>
-      <Portfolio />
+      <Portfoliosection/>
       <Testimonial />
       <Booken />
       <Foot />

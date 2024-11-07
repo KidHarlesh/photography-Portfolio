@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react'
 import { GoArrowRight } from "react-icons/go"
 import Rightclick from "../assets/Right-Button.svg"
 import Leftclick from "../assets/Left-Button.svg"
@@ -8,7 +8,7 @@ import whitewoman from "../assets/white-Image.png"
 import Carton from "../assets/Carton-Image.png"
 import { Link } from "react-router-dom"
 
-const Portfolio = () => {
+const Portfoliosection = () => {
   return (
     <section className=" bg-black">
       <div className="container  pt-[20px] lg:pt-[100px] xl:pb-[150px]">
@@ -33,7 +33,7 @@ const Portfolio = () => {
                   />
                   <img
                     className="w-12  lg:w-8  xl:w-12 transition-transform duration-300 active:translate-x-2"
-                    src={Rightclick} 
+                    src={Rightclick}
                   />
                 </div>
               </div>
@@ -49,7 +49,8 @@ const Portfolio = () => {
           <div>
             <img
               className="block mx-auto lg:mx-0 hover:scale-105 transition-transform duration-100 "
-              srcSet={African} loading="lazy"
+              srcSet={African}
+              loading="lazy"
             />
             <div className="flex items-center lg:items-start justify-between pt-[16px]">
               <div>
@@ -83,7 +84,8 @@ const Portfolio = () => {
           <div className="hidden lg:block ">
             <img
               className="hover:scale-105 transition-transform duration-100"
-              srcSet={whitewoman} loading="lazy"
+              srcSet={whitewoman}
+              loading="lazy"
             />
             <div className="flex items-center lg:items-start justify-between pt-[16px]">
               <div>
@@ -105,7 +107,8 @@ const Portfolio = () => {
           <div className="hidden lg:block">
             <img
               className="hover:scale-105 transition-transform duration-100"
-              srcSet={Carton} loading="lazy"
+              srcSet={Carton}
+              loading="lazy"
             />
             <div className="flex items-center lg:items-start justify-between pt-[16px]">
               <div>
@@ -129,4 +132,7 @@ const Portfolio = () => {
     </section>
   );
 }
-export default Portfolio
+
+export default Portfoliosection
+
+
