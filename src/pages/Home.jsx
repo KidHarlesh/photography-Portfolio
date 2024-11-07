@@ -1,11 +1,12 @@
 import React from "react";
 import Heroo from "../components/Heroo";
 import Booken from "../components/Booken";
-import Foot from "../components/Foot";
+
 import Aboutsection from "../components/Aboutsection";
 import Navbar from "../components/Navbar";
 import Portfoliosection from "../components/Portfoliosection";
 import Testimonialsection from "../components/Testimonialsection";
+import Footsection from "../components/Footsection";
 
 const Home = () => {
   return (
@@ -16,7 +17,7 @@ const Home = () => {
       <Portfoliosection />
       <Testimonialsection/>
       <Booken />
-      <Foot />
+      <Footsection/>
     </div>
   );
 };

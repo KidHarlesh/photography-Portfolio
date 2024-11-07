@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react'
 import Sidelogo from "../assets/Damien-footLogo.svg"
 import long from "../assets/footer-longimage.svg"
 import Button from "../assets/Blue-Button.svg"
@@ -10,7 +10,7 @@ import laptop from "../assets/long-Contain.svg"
 import Left from "../assets/left-Abstract.svg"
 import Right from "../assets/Right-Abstract.svg"
 
-const Foot = () => {
+const Footsection = () => {
   return (
     <footer className=" bg-black pt-20">
       <div className="flex justify-end pb-5 lg:pb-16 container">
@@ -180,7 +180,11 @@ const Foot = () => {
         </div>
       </div>
     </footer>
-  );
+  )
 }
 
-export default Foot
+export default Footsection
+
+
+
+
