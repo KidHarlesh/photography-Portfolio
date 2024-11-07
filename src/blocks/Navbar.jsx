@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import Mobilelogo from "../assets/Mobile.logo.svg";
@@ -103,12 +102,6 @@ const Navbar = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Navbar
-
-
-
-
-
- 
+export default Navbar;

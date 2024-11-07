@@ -1,14 +1,14 @@
-import React from 'react'
-import Sidelogo from "../assets/Damien-footLogo.svg"
-import long from "../assets/footer-longimage.svg"
-import Button from "../assets/Blue-Button.svg"
-import { Link } from "react-router-dom"
-import Facebook from "../assets/Facebook-Button.svg"
-import Twitter from "../assets/Twitter-Button.svg"
-import Linkedin from "../assets/Linkedin-Button.svg"
-import laptop from "../assets/long-Contain.svg"
-import Left from "../assets/left-Abstract.svg"
-import Right from "../assets/Right-Abstract.svg"
+import React from "react";
+import Sidelogo from "../assets/Damien-footLogo.svg";
+import long from "../assets/footer-longimage.svg";
+import Button from "../assets/Blue-Button.svg";
+import { Link } from "react-router-dom";
+import Facebook from "../assets/Facebook-Button.svg";
+import Twitter from "../assets/Twitter-Button.svg";
+import Linkedin from "../assets/Linkedin-Button.svg";
+import laptop from "../assets/long-Contain.svg";
+import Left from "../assets/left-Abstract.svg";
+import Right from "../assets/Right-Abstract.svg";
 
 const Footsection = () => {
   return (
@@ -180,11 +180,6 @@ const Footsection = () => {
         </div>
       </div>
     </footer>
-  )
-}
-
-export default Footsection
-
-
-
-
+  );
+};
+export default Footsection;

@@ -1,12 +1,12 @@
-import React from 'react'
-import { GoArrowRight } from "react-icons/go"
-import StarIcon from "../assets/Star-Icon.svg"
-import Facebook from "../assets/Facebook-Button.svg"
-import Twitter from "../assets/Twitter-Button.svg"
-import Linkedin from "../assets/Linkedin-Button.svg"
-import { Link } from "react-router-dom"
-import Image from "../assets/About-image.png"
-import cv from "../assets/alowoesin-cv.pdf"
+import React from "react";
+import { GoArrowRight } from "react-icons/go";
+import StarIcon from "../assets/Star-Icon.svg";
+import Facebook from "../assets/Facebook-Button.svg";
+import Twitter from "../assets/Twitter-Button.svg";
+import Linkedin from "../assets/Linkedin-Button.svg";
+import { Link } from "react-router-dom";
+import Image from "../assets/About-image.png";
+import cv from "../assets/alowoesin-cv.pdf";
 
 const Aboutsection = () => {
   return (
@@ -122,8 +122,6 @@ const Aboutsection = () => {
       {/* <p>hello</p> */}
     </section>
   );
-}
+};
 
-export default Aboutsection
-
-
+export default Aboutsection;
