@@ -13,16 +13,9 @@ const Navbar = () => {
     <section className=" bg-black text-[#AFB0B6]">
       <nav className=" fixed top-0 w-full bg-black border-solid border-x-0 border-[#2F2F37] border-t-0 border-b    z-50   ">
         <div className="  container flex justify-between  items-center border-x border-[#2F2F37] pt-8  pl-10 lg:pr-10  ">
-          {/* <div className=" flex justify-between  items-center pt-[40px]  lg:pt-[0px] "> */}
-          {/* <div> */}
           <Link>
             <img srcSet={Mobilelogo} />
           </Link>
-          {/* </div> */}
-          {/* <div className="md:block  border border-[#2F2F37] border-e-0 lg:hidden p-[20px] rounded-tl-xl  border-b-0   ">
-              <img srcSet={Menu} alt="menu" />
-            </div> */}
-          {/* </div> */}
           <ul className=" hidden  lg:flex justify-between  text-[14px]  font-normal  items-center ">
             <li className=" py-[20px] border-[#2F2F37]  border  border-e-0   border-b-0   rounded-tl-lg   transition delay-150 duration-300 ease-in-out">
               <NavLink className="px-[29px] py-[21px]" to="/">
