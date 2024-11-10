@@ -17,7 +17,7 @@ const HeroSection = () => {
           </h1>
         </div>
         <div className="hidden lg:block ">
-          <img className=" max-w-[90%]" srcSet={Vector} alt="image" />
+          <img className=" max-w-[90%]" src={Vector} alt="image" />
         </div>
         <div>
           <h1 className=" text-[39px] text-[#FFFFFF] font-semibold ">
@@ -26,7 +26,7 @@ const HeroSection = () => {
               <Link>
                 <img
                   className="max-w-14 lg:max-w-20  animate-bounce "
-                  srcSet={Button}
+                  src={Button}
                 />
               </Link>
             </span>
@@ -36,7 +36,7 @@ const HeroSection = () => {
       </div>
       {/* for hero section image */}
       <div className="container">
-        <img srcSet={Heroimagesection} loading="lazy" />
+        <img src={Heroimagesection} loading="lazy" />
       </div>
     </section>
   );
