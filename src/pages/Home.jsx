@@ -1,5 +1,5 @@
 import React from "react";
-// import HeroSection from "../component/HeroSection";
+import HeroSection from "../component/HeroSection";
 // import Aboutsection from "../component/Aboutsection";
 // import Portfoliosection from "../component/Portfoliosection";
 // import Testimonialsection from "../component/Testimonialsection";
@@ -10,7 +10,8 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      {/* <HeroSection />
+      <HeroSection />
+      {/*
       <Aboutsection />
       <Portfoliosection />
       <Testimonialsection />

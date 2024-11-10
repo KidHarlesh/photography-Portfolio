@@ -44,7 +44,6 @@ const Navbar = () => {
           >
             <FaBars className=" text-dark text-3xl" />
           </div>
-
           <div className="text-white  hidden lg:block">
             <button className=" bg-[#1C1C21]  py-[10px] px-[15px] rounded-lg text-[10px] transition delay-150 duration-300 ease-in-out  ">
               Contact Me
