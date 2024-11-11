@@ -6,7 +6,7 @@ import Twitter from "../assets/Twitter-Button.svg";
 import Linkedin from "../assets/Linkedin-Button.svg";
 import { Link } from "react-router-dom";
 import Image from "../assets/About-image.png";
-import cv from "../assets/alowoesin-cv.pdf";
+import cv from "../assets/Alowoesin-cv.pdf";
 
 const About = () => {
   return (
@@ -38,13 +38,13 @@ const About = () => {
           <div>
             {/*  introduction cntainer */}
             <div className=" grid  border border-[#1C1C21] rounded-t-lg p-[20px] lg:p-[18px] xl:lg:p-[28px]   text-[#CACACE] font-medium ">
-              <p className="flex items-center text-[20px] lg:text-[18px] xl:lg:text-[26px] pb-[12px] ">
+              <p className="flex items-center text-[20px] lg:text-[18px] xl:text-[26px] pb-[12px] ">
                 <span className=" pr-[5px]">
                   <img className=" lg:w-6 xl:w-8 " src={StarIcon} />
                 </span>
                 Introduction
               </p>
-              <p className="text-[14px] lg:text-[12px] xl:lg:text-[14px] font-light text-[#AFB0B6]">
+              <p className="text-[14px] lg:text-[12px] xl:text-[14px] font-light text-[#AFB0B6]">
                 My journey as a photographer has been a lifelong quest to
                 capture the extraordinary in the ordinary, to freeze fleeting
                 moments in time, and to share the world's beauty as I see it.
@@ -55,7 +55,7 @@ const About = () => {
               </p>
             </div>
             {/* contanct container */}
-            <div className="  border border-[#1C1C21] rounded-b-lg p-[24px] lg:p-[18px] xl:lg:p-[28px] text-[#CACACE] font-medium ">
+            <div className="  border border-[#1C1C21] rounded-b-lg p-[24px] lg:p-[18px] xl:p-[28px] text-[#CACACE] font-medium ">
               <p className="text-[20px] lg:text-[18px]  xl:text-[30px] flex items-center pb-[20px] lg:pb-[16px] xl:pb-[20px] ">
                 <span className="pr-[5px]">
                   <img className=" lg:w-6 xl:w-8 " src={StarIcon} />
@@ -73,7 +73,7 @@ const About = () => {
                   </p>
                 </div>
                 <div>
-                  <p className="text-[14px] lg:text-[12px] xl:lg:text-[16px]">
+                  <p className="text-[14px] lg:text-[12px] xl:text-[16px]">
                     Phone
                   </p>
                   <p className="text-[16px] lg:text-[14px]  xl:text-[18px] font-light">
@@ -104,11 +104,11 @@ const About = () => {
                 </div>
                 <div className="pt-[20px] lg:pt-[0px]   px-[0px] lg:px-[16px] grid   lg:grid-cols-2  gap-5 lg:items-center lg:gap-4">
                   <Link>
-                    <button className="text-[14] lg:text-[12px] font-medium text-[#FFFFFF] bg-[#1C1C21] text-center px-[104px] lg:px-[25px] xl:px-[40px] py-[14px] lg:py-[12px] xl:py-[16px]  rounded-xl hover:bg-[#232323] ">
+                    <button className="text-[14px] lg:text-[12px] font-medium text-[#FFFFFF] bg-[#1C1C21] text-center px-[104px] lg:px-[25px] xl:px-[40px] py-[14px] lg:py-[12px] xl:py-[16px]  rounded-xl hover:bg-[#232323] ">
                       Let’s Work
                     </button>
                   </Link>
-                  <a href={cv} download>
+                  <a href={cv} download="Alowoesin-Toluwalase-CV.pdf">
                     <button className="text-[14px] lg:text-[12px] font-medium text-[#FFFFFF] bg-[#1C1C21] text-center px-[100px] lg:px-[20px] xl:px-[30px]  py-[14px]  lg:py-[12px] xl:py-[16px] rounded-xl  hover:bg-[#232323] ">
                       Download CV
                     </button>

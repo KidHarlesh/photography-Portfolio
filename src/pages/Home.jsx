@@ -4,7 +4,7 @@ import Portfoliosection from "../component/Portfoliosection";
 import Testimonialsection from "../component/Testimonialsection";
 import Navbar from "../component/Navbar";
 import About from "../component/About";
-import Footer from "../component/Footer";
+// import Footer from "../component/Footer";
 
 const Home = () => {
   return (
@@ -14,7 +14,7 @@ const Home = () => {
       <About />
       <Portfoliosection />
       <Testimonialsection />
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 };
