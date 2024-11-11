@@ -1,7 +1,7 @@
 import React from "react";
 import HeroSection from "../component/HeroSection";
 // import Aboutsection from "../component/Aboutsection";
-// import Portfoliosection from "../component/Portfoliosection";
+import Portfoliosection from "../component/Portfoliosection";
 import Testimonialsection from "../component/Testimonialsection";
 // import Footsection from "../component/Footsection";
 import Navbar from "../component/Navbar";
