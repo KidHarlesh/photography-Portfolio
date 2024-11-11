@@ -3,7 +3,7 @@ import HeroSection from "../component/HeroSection";
 import Portfoliosection from "../component/Portfoliosection";
 import Testimonialsection from "../component/Testimonialsection";
 import Navbar from "../component/Navbar";
-import About from "../component/About";
+// import About from "../component/About";
 // import Footer from "../component/Footer";
 
 const Home = () => {
@@ -11,8 +11,9 @@ const Home = () => {
     <div>
       <Navbar />
       <HeroSection />
-      <About />
+      {/* <About /> */}
       <Portfoliosection />
+      <Testimonialsection />
       <Testimonialsection />
       {/* <Footer/> */}
     </div>
