@@ -10,7 +10,7 @@ import laptop from "../assets/long-Contain.svg";
 import Left from "../assets/left-Abstract.svg";
 import Right from "../assets/Right-Abstract.svg";
 
-const Footsection = () => {
+const Footer = () => {
   return (
     <footer className=" bg-black pt-20">
       <div className="flex justify-end pb-5 lg:pb-16 container">
@@ -182,4 +182,5 @@ const Footsection = () => {
     </footer>
   );
 };
-export default Footsection;
+
+export default Footer;

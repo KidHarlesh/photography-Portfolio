@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 import Image from "../assets/About-image.png";
 import cv from "../assets/alowoesin-cv.pdf";
 
-const Aboutsection = () => {
+const About = () => {
   return (
     <section className="  bg-black">
       <div className=" container pt-[80px] pb-[100px] lg:pb-[100px]">
@@ -119,9 +119,8 @@ const Aboutsection = () => {
           </div>
         </div>
       </div>
-      {/* <p>hello</p> */}
     </section>
   );
 };
 
-export default Aboutsection;
+export default About;
