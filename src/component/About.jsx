@@ -12,7 +12,7 @@
 
 import React from "react";
 import { GoArrowRight } from "react-icons/go";
-import StarIcon from "../assets/Star-icon.svg";
+// import StarIcon from "../assets/Star-icon.svg";
 // import Facebook from "../assets/Facebook-Button.svg";
 // import Twitter from "../assets/Twitter-Button.svg";
 // import Linkedin from "../assets/Linkedin-Button.svg";
