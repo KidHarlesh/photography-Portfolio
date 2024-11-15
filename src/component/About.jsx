@@ -13,9 +13,9 @@
 import React from "react";
 import { GoArrowRight } from "react-icons/go";
 // import StarIcon from "../assets/Star-icon.svg";
-// import Facebook from "../assets/Facebook-Button.svg";
-// import Twitter from "../assets/Twitter-Button.svg";
-// import Linkedin from "../assets/Linkedin-Button.svg";
+import Facebook from "../assets/Facebook-Button.svg";
+import Twitter from "../assets/Twitter-button.svg";
+import Linkedin from "../assets/Linkedin-Button.svg"
 import { Link } from "react-router-dom";
 import Image from "../assets/About-image.png";
 // import cv from "../assets/Alowoesin-cv.pdf";
@@ -95,24 +95,24 @@ const About = () => {
               </div>
               <div className=" lg:flex  items-center  justify-between  xl:pt-[18px]  ">
                 <div className=" border border-[#1C1C21] flex w-fit rounded-full   p-[8px]  xl:p-[13px]  gap-[6px] ">
-                  {/* <Link>
+                  <Link>
                     <img
                       className="w-10 lg:w-6 xl:w-8  hover:bg-[#1C1C21]  hover:text-[#bfbfbf] rounded-lg transition delay-150 duration-300 ease-in-out"
                       src={Facebook}
                     />
-                  </Link> */}
-                  {/* <Link>
+                  </Link>
+                  <Link>
                     <img
                       className="w-10 lg:w-6 xl:w-8   hover:bg-[#1C1C21]  hover:text-[#bfbfbf] rounded-lg transition delay-150 duration-300 ease-in-out"
                       src={Twitter}
                     />
-                  </Link> */}
-                  {/* <Link>
+                  </Link>
+                  <Link>
                     <img
                       className="w-10 lg:w-6 xl:w-8   hover:bg-[#1C1C21] hover:text-[#bfbfbf] rounded-lg transition delay-150 duration-300 ease-in-out"
                       src={Linkedin}
                     />
-                  </Link> */}
+                  </Link>
                 </div>
                 <div className="pt-[20px] lg:pt-[0px]   px-[0px] lg:px-[16px] grid   lg:grid-cols-2  gap-5 lg:items-center lg:gap-4">
                   <Link>
