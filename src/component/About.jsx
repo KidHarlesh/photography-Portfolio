@@ -12,7 +12,7 @@
 
 import React from "react";
 import { GoArrowRight } from "react-icons/go";
-import StarIcon from "../assets/Star-icon.svg";
+// import StarIcon from "../assets/Star-icon.svg";
 // import Facebook from "../assets/Facebook-Button.svg";
 // import Twitter from "../assets/Twitter-Button.svg";
 // import Linkedin from "../assets/Linkedin-Button.svg";
@@ -52,7 +52,7 @@ const About = () => {
             <div className=" grid  border border-[#1C1C21] rounded-t-lg p-[20px] lg:p-[18px] xl:p-[28px]   text-[#CACACE] font-medium ">
               <p className="flex items-center text-[20px] lg:text-[18px] xl:text-[26px] pb-[12px] ">
                 <span className=" pr-[5px]">
-                  <img className=" lg:w-6 xl:w-8 " src={StarIcon} />
+                  {/* <img className=" lg:w-6 xl:w-8 " src={StarIcon} /> */}
                 </span>
                 Introduction
               </p>
@@ -70,7 +70,7 @@ const About = () => {
             <div className="  border border-[#1C1C21] rounded-b-lg p-[24px] lg:p-[18px] xl:p-[28px] text-[#CACACE] font-medium ">
               <p className="text-[20px] lg:text-[18px]  xl:text-[30px] flex items-center pb-[20px] lg:pb-[16px] xl:pb-[20px] ">
                 <span className="pr-[5px]">
-                  <img className=" lg:w-6 xl:w-8 " src={StarIcon} />
+                  {/* <img className=" lg:w-6 xl:w-8 " src={StarIcon} /> */}
                 </span>
                 Contact Information
               </p>
