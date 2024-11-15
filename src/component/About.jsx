@@ -13,12 +13,12 @@
 import React from "react";
 import { GoArrowRight } from "react-icons/go";
 // import StarIcon from "../assets/Star-icon.svg";
-// import Facebook from "../assets/Facebook-Button.svg";
-// import Twitter from "../assets/Twitter-Button.svg";
-// import Linkedin from "../assets/Linkedin-Button.svg";
+import Facebook from "../assets/Facebook-Button.svg";
+import Twitter from "../assets/Twitter-Button.svg";
+import Linkedin from "../assets/Linkedin-Button.svg";
 import { Link } from "react-router-dom";
 import Image from "../assets/About-image.png";
-// import cv from "../assets/Alowoesin-cv.pdf";
+import cv from "../assets/Alowoesin-cv.pdf";
 
 const About = () => {
   return (
