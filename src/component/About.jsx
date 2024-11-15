@@ -12,7 +12,7 @@
 
 import React from "react";
 import { GoArrowRight } from "react-icons/go";
-// import StarIcon from "../assets/Star-icon.svg";
+import StarIcon from "../assets/Star-icon.svg";
 // import Facebook from "../assets/Facebook-Button.svg";
 // import Twitter from "../assets/Twitter-Button.svg";
 // import Linkedin from "../assets/Linkedin-Button.svg";
@@ -49,7 +49,7 @@ const About = () => {
           />
           <div>
             {/*  introduction cntainer */}
-            {/* <div className=" grid  border border-[#1C1C21] rounded-t-lg p-[20px] lg:p-[18px] xl:lg:p-[28px]   text-[#CACACE] font-medium ">
+            <div className=" grid  border border-[#1C1C21] rounded-t-lg p-[20px] lg:p-[18px] xl:p-[28px]   text-[#CACACE] font-medium ">
               <p className="flex items-center text-[20px] lg:text-[18px] xl:text-[26px] pb-[12px] ">
                 <span className=" pr-[5px]">
                   <img className=" lg:w-6 xl:w-8 " src={StarIcon} />
@@ -65,16 +65,15 @@ const About = () => {
                 Join me as we embark on a visual odyssey, where each photograph
                 tells a story, and every frame is a piece of my heart.
               </p>
-            </div> */}
+            </div>
             {/* contanct container */}
             <div className="  border border-[#1C1C21] rounded-b-lg p-[24px] lg:p-[18px] xl:p-[28px] text-[#CACACE] font-medium ">
-              <h1>hello</h1>
-              {/* <p className="text-[20px] lg:text-[18px]  xl:text-[30px] flex items-center pb-[20px] lg:pb-[16px] xl:pb-[20px] ">
+              <p className="text-[20px] lg:text-[18px]  xl:text-[30px] flex items-center pb-[20px] lg:pb-[16px] xl:pb-[20px] ">
                 <span className="pr-[5px]">
                   <img className=" lg:w-6 xl:w-8 " src={StarIcon} />
                 </span>
                 Contact Information
-              </p> */}
+              </p>
               {/* email container */}
               {/* <div className="lg:grid   lg:grid-cols-2  pb-[20px] lg:pb-[14px] xl:pb-[12px] ">
                 <div>
