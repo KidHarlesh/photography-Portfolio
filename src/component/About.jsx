@@ -49,7 +49,7 @@ const About = () => {
           />
           <div>
             {/*  introduction cntainer */}
-            <div className=" grid  border border-[#1C1C21] rounded-t-lg p-[20px] lg:p-[18px] xl:lg:p-[28px]   text-[#CACACE] font-medium ">
+            <div className=" grid  border border-[#1C1C21] rounded-t-lg  p-[20px] lg:p-[18px] xl:p-[28px]   text-[#CACACE] font-medium ">
               <p className="flex items-center text-[20px] lg:text-[18px] xl:text-[26px] pb-[12px] ">
                 <span className=" pr-[5px]">
                   <img className=" lg:w-6 xl:w-8 " src={StarIcon} />
