@@ -6,18 +6,18 @@ import Heroimagesection from "../assets/Hero-sectionimage.png";
 
 const HeroSection = () => {
   return (
-    <section className=" bg-black  border-solid  border-[#2F2F37] border-x-0 pt-[80px] lg:pt-20  ">
-      <div className="gap-[20px] grid container lg:flex  justify-between items-center ">
-        <div className="pt-[40px] lg:pt-0">
-          <h1 className=" text-[14px] font-normal lg:text-[16px] lg:font-medium text-[#62646C]">
+    <section className=" bg-black  border-solid   border-[#2F2F37] border-x-0 pt-[80px] lg:pt-20  ">
+      <div className="gap-[20px] grid container lg:flex   justify-between items-center ">
+        <div className="pt-[40px] lg:pt-0 ">
+          <h1 className=" text-[14px] font-normal xl:text-[16px] lg:font-medium text-[#62646C]">
             STUNNINGPHOTOGRAPHYBY <br />
-            <span className=" text-[40px] lg:text-[45px] text-[#E4E4E6] font-semibold ">
+            <span className=" text-[40px] xl:text-[60px] text-[#E4E4E6] font-semibold ">
               DAMIEN BRAUN
             </span>
           </h1>
         </div>
         <div className="hidden lg:block ">
-          <img className=" max-w-[90%]" src={Vector} alt="image" />
+          <img className="   " src={Vector} alt="image" />
         </div>
         <div>
           <h1 className=" text-[39px] text-[#FFFFFF] font-semibold ">

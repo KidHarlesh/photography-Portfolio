@@ -15,7 +15,6 @@ const Home = () => {
       <About/>
       <Portfoliosection />
       <Testimonialsection />
-      <Testimonialsection />
       <Footer/>
     </div>
   );
