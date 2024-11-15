@@ -18,7 +18,7 @@ import { GoArrowRight } from "react-icons/go";
 // import Linkedin from "../assets/Linkedin-Button.svg";
 import { Link } from "react-router-dom";
 import Image from "../assets/About-image.png";
-import cv from "../assets/Alowoesin-cv.pdf";
+// import cv from "../assets/Alowoesin-cv.pdf";
 
 const About = () => {
   return (
@@ -120,7 +120,7 @@ const About = () => {
                       Let’s Work
                     </button>
                   </Link>
-                  <a href={cv} download="Alowoesin-Toluwalase-CV.pdf">
+                  <a >
                     <button className="text-[14px] lg:text-[12px] font-medium text-[#FFFFFF] bg-[#1C1C21] text-center px-[100px] lg:px-[20px] xl:px-[30px]  py-[14px]  lg:py-[12px] xl:py-[16px] rounded-xl  hover:bg-[#232323] ">
                       Download CV
                     </button>
@@ -135,4 +135,4 @@ const About = () => {
   );
 };
 export default About;
-
+// href={cv} download="Alowoesin-Toluwalase-CV.pdf"
