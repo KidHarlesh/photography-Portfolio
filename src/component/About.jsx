@@ -93,7 +93,7 @@ const About = () => {
                   </p>
                 </div>
               </div>
-              {/* <div className=" lg:flex  items-center  justify-between  xl:pt-[18px]  ">
+              <div className=" lg:flex  items-center  justify-between  xl:pt-[18px]  ">
                 <div className=" border border-[#1C1C21] flex w-fit rounded-full   p-[8px]  xl:p-[13px]  gap-[6px] ">
                   <Link>
                     <img
@@ -126,7 +126,7 @@ const About = () => {
                     </button>
                   </a>
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>
