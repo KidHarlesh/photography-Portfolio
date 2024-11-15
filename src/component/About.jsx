@@ -17,7 +17,7 @@ import { GoArrowRight } from "react-icons/go";
 // import Twitter from "../assets/Twitter-Button.svg";
 // import Linkedin from "../assets/Linkedin-Button.svg";
 import { Link } from "react-router-dom";
-// import Image from "../assets/About-image.png";
+import Image from "../assets/About-image.png";
 // import cv from "../assets/Alowoesin-cv.pdf";
 
 const About = () => {
@@ -42,11 +42,11 @@ const About = () => {
         </div>
         {/* down container */}
         <div className=" pt-[40px] lg:grid  lg:grid-cols-2 items-center justify-between gap-[20px] ">
-          {/* <img
+          <img
             className=" pb-[20px] lg:pb-[0px] hover:animate-pulse "
             src={Image}
             alt="image"
-          /> */}
+          />
           <div>
             {/*  introduction cntainer */}
             {/* <div className=" grid  border border-[#1C1C21] rounded-t-lg p-[20px] lg:p-[18px] xl:lg:p-[28px]   text-[#CACACE] font-medium ">
