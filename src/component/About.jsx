@@ -75,7 +75,7 @@ const About = () => {
                 Contact Information
               </p>
               {/* email container */}
-              {/* <div className="lg:grid   lg:grid-cols-2  pb-[20px] lg:pb-[14px] xl:pb-[12px] ">
+              <div className="lg:grid   lg:grid-cols-2  pb-[20px] lg:pb-[14px] xl:pb-[12px] ">
                 <div>
                   <p className="text-[14px] lg:text-[12px] xl:text-[14px]">
                     Email
@@ -92,7 +92,7 @@ const About = () => {
                     +00 000000000
                   </p>
                 </div>
-              </div> */}
+              </div>
               {/* <div className=" lg:flex  items-center  justify-between  xl:pt-[18px]  ">
                 <div className=" border border-[#1C1C21] flex w-fit rounded-full   p-[8px]  xl:p-[13px]  gap-[6px] ">
                   <Link>
