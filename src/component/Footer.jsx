@@ -1,14 +1,14 @@
 import React from "react";
 import Sidelogo from "../assets/Damien-footLogo.svg";
-// import long from "../assets/footer-longimage.svg";
-// import Button from "../assets/Blue-Button.svg";
+import long from "../assets/footer-longimage.svg";
+import Button from "../assets/Blue-Button.svg";
 import { Link } from "react-router-dom";
-// import Facebook from "../assets/Facebook-Button.svg";
-// import Twitter from "../assets/Twitter-Button.svg";
-// import Linkedin from "../assets/Linkedin-Button.svg";
-// import laptop from "../assets/long-Contain.svg";
-// import Left from "../assets/left-Abstract.svg";
-// import Right from "../assets/Right-Abstract.svg";
+import Facebook from "../assets/Facebook-Button.svg";
+import Twitter from "../assets/Twitter-button.svg";
+import Linkedin from "../assets/Linkedin-Button.svg";
+import laptop from "../assets/long-Contain.svg";
+import Left from "../assets/left-Abstract.svg";
+import Right from "../assets/Right-Abstract.svg";
 
 const Footer = () => {
   return (
@@ -19,17 +19,17 @@ const Footer = () => {
           srcSet={Sidelogo}
         />
       </div>
-      {/* <div className="lg:hidden ">
+      <div className="lg:hidden ">
         <img className="w-[100%]  h-18 " src={long} />
-      </div> */}
-      {/* <div className="hidden lg:flex  justify-center">
+      </div>
+      <div className="hidden lg:flex  justify-center">
         <img srcSet={laptop} />
-      </div> */}
+      </div>
       {/* 1st footer div */}
       <div className="flex   items-center">
-        {/* <div className="hidden lg:block ">
+        <div className="hidden lg:block ">
           <img className="  h-[187px]" srcSet={Left} />
-        </div> */}
+        </div>
         <div className="container lg:grid lg:items-start lg:grid-cols-2 ">
           <div className="border border-[#1C1C21] px-5  py-10 lg:py-[80px]  lg:px-[60px]  ">
             <p className="text-[14px]   text-[#797C86] pb-5  lg:pb-[50px] font-semibold">
@@ -40,10 +40,10 @@ const Footer = () => {
                 <span className="flex gap-3 items-center">
                   Let’s
                   <Link>
-                    {/* <img
+                    <img
                       className="max-w-14  lg:max-w-[130px]  animate-bounce "
                       srcSet={Button}
-                    /> */}
+                    />
                   </Link>
                 </span>
                 Work Together
@@ -60,7 +60,7 @@ const Footer = () => {
                   <h2 className="text-[14px] font-semibold text-[#797C86] mb-4 lg:mb-[20px]">
                     HOME
                   </h2>
-                  <nav className="text-[16px] text-[#F2F2F3]  font-medium space-y-2">
+                  <nav className="text-[16px] text-[#F2F2F3]  font-medium space-y-2 flex flex-col">
                     <li className="list-none border-b inline-block border-[#1C1C21] pb-1">
                       <Link to="/about">ABOUT ME</Link>
                     </li>
@@ -77,7 +77,7 @@ const Footer = () => {
                   <h2 className="text-[14px] font-semibold text-[#797C86] mb-4 lg:mb-[20px] ">
                     CLIENT
                   </h2>
-                  <nav className="text-[16px] text-[#F2F2F3] font-medium space-y-2">
+                  <nav className="text-[16px] text-[#F2F2F3] font-medium space-y-2 flex flex-col">
                     <li className="list-none border-b inline-block border-[#1C1C21] pb-1">
                       <Link to="/klovesto">KLOVESTO</Link>
                     </li>
@@ -99,20 +99,20 @@ const Footer = () => {
                   <h2 className="text-[14px] font-semibold text-[#797C86] mb-4 lg:mb-[20px]">
                     PORTFOLIO
                   </h2>
-                  <nav className="text-[16px] text-[#F2F2F3] font-medium space-y-2">
+                  <nav className="text-[16px] text-[#F2F2F3] font-medium space-y-2 flex flex-col">
                     <li className="list-none border-b inline-block border-[#1C1C21] pb-1">
                       <Link to="/events">EVENTS</Link>
                     </li>
-                    <li className="list-none border-b inline-block border-[#1C1C21] pb-1">
+                    <li className="list-none border-b border-[#1C1C21] pb-1">
                       <Link to="/portrait">PORTRAIT</Link>
                     </li>
-                    <li className="list-none border-b inline-block border-[#1C1C21] pb-1">
+                    <li className="list-none border-b border-[#1C1C21] pb-1">
                       <Link to="/branding">BRANDING</Link>
                     </li>
-                    <li className="list-none border-b inline-block border-[#1C1C21] pb-1">
+                    <li className="list-none border-b border-[#1C1C21] pb-1">
                       <Link to="/commerciale">COMMERCIALE</Link>
                     </li>
-                    <li className="list-none border-b inline-block border-[#1C1C21] pb-1">
+                    <li className="list-none border-b border-[#1C1C21] pb-1">
                       <Link to="/wedding">WEDDING</Link>
                     </li>
                   </nav>
@@ -122,7 +122,7 @@ const Footer = () => {
                   <h2 className="text-[14px] font-semibold text-[#797C86] mb-4 lg:mb-[20px]">
                     SERVICES
                   </h2>
-                  <nav className="text-[16px] text-[#F2F2F3] font-medium space-y-2">
+                  <nav className="text-[16px] text-[#F2F2F3] font-medium space-y-2 flex flex-col">
                     <li className="list-none border-b inline-block border-[#1C1C21] pb-1">
                       <Link to="/portraits">PORTRAITS</Link>
                     </li>
@@ -139,9 +139,9 @@ const Footer = () => {
           </div>
           {/* div for nav end */}
         </div>
-        {/* <div>
+        <div>
           <img className="hidden lg:block  h-[187px]" srcSet={Right} />
-        </div> */}
+        </div>
       </div>
       {/* first footer end */}
       <div className="p-5">
@@ -159,22 +159,22 @@ const Footer = () => {
         <div className="flex justify-center">
           <div className=" border border-[#1C1C21] flex w-fit rounded-full   p-[8px]  xl:p-[13px]  gap-[6px] bg-black   ">
             <Link>
-              {/* <img
+              <img
                 className="w-10 lg:w-6 xl:w-8  hover:bg-[#1C1C21]  hover:text-[#bfbfbf] rounded-lg transition delay-150 duration-100 ease-in-out"
                 src={Facebook}
-              /> */}
+              />
             </Link>
             <Link>
-              {/* <img
+              <img
                 className="w-10 lg:w-6 xl:w-8   hover:bg-[#1C1C21]  hover:text-[#bfbfbf] rounded-lg transition delay-150 duration-100 ease-in-out"
                 src={Twitter}
-              /> */}
+              />
             </Link>
             <Link>
-              {/* <img
+              <img
                 className="w-10 lg:w-6 xl:w-8   hover:bg-[#1C1C21] hover:text-[#bfbfbf] rounded-lg transition delay-150 duration-100 ease-in-out"
                 src={Linkedin}
-              /> */}
+              />
             </Link>
           </div>
         </div>
@@ -185,16 +185,4 @@ const Footer = () => {
 
 export default Footer
 
-// import React from "react";
 
-// const Footer = () => {
-//   return (
-//     <div>
-//       <div>Footer</div>
-//       <div>Footer</div>
-//       <div>Footer</div>
-//     </div>
-//   );
-// };
-
-// export default Footer;
