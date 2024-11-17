@@ -1,5 +1,5 @@
 import React from "react";
-// import Sidelogo from "../assets/Damien-footLogo.svg";
+import Sidelogo from "../assets/Damien-footLogo.svg";
 // import long from "../assets/footer-longimage.svg";
 // import Button from "../assets/Blue-Button.svg";
 import { Link } from "react-router-dom";
@@ -13,12 +13,12 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className=" bg-black pt-20">
-      {/* <div className="flex justify-end pb-5 lg:pb-16 container">
+      <div className="flex justify-end pb-5 lg:pb-16 container">
         <img
           className="w-[315px] lg:w-[926px]  xl h-14  lg:h-[169px] "
           srcSet={Sidelogo}
         />
-      </div> */}
+      </div>
       {/* <div className="lg:hidden ">
         <img className="w-[100%]  h-18 " src={long} />
       </div> */}
