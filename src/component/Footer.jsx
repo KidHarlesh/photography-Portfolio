@@ -7,8 +7,7 @@ import Facebook from "../assets/Facebook-Button.svg";
 import Twitter from "../assets/Twitter-button.svg";
 import Linkedin from "../assets/Linkedin-Button.svg";
 import laptop from "../assets/long-Contain.svg";
-import Left from "../assets/left-Abstract.svg";
-import Right from "../assets/Right-Abstract.svg";
+
 
 const Footer = () => {
   return (
@@ -28,7 +27,7 @@ const Footer = () => {
       {/* 1st footer div */}
       <div className="flex   items-center">
         <div className="hidden lg:block ">
-          <img className="  h-[187px]" srcSet={Left} />
+        
         </div>
         <div className="container lg:grid lg:items-start lg:grid-cols-2 ">
           <div className="border border-[#1C1C21] px-5  py-10 lg:py-[80px]  lg:px-[60px]  ">
@@ -53,94 +52,11 @@ const Footer = () => {
           {/* 2nd footer div */}
           <div className="  border border-[#1C1C21] px-5 py-10 lg:px-[50px]   lg:py-[80px]  ">
             {/* Footer Links */}
-            <div className="grid  gap-12 lg:grid-cols-2 lg:gap-0 ">
-              {/* Home Navbar */}
-              <div className="grid grid-cols-2   gap-[50px] lg:gap-[50px] pr-20 lg:pr-0 pl-5 lg:pl-0">
-                <div>
-                  <h2 className="text-[14px] font-semibold text-[#797C86] mb-4 lg:mb-[20px]">
-                    HOME
-                  </h2>
-                  <nav className="text-[16px] text-[#F2F2F3]  font-medium space-y-2 flex flex-col">
-                    <li className="list-none border-b inline-block border-[#1C1C21] pb-1">
-                      <Link to="/about">ABOUT ME</Link>
-                    </li>
-                    <li className="list-none border-b inline-block border-[#1C1C21] pb-1">
-                      <Link to="/works">MY WORKS</Link>
-                    </li>
-                    <li className="list-none border-b inline-block border-[#1C1C21] pb-1">
-                      <Link to="/testimonials">TESTIMONIALS</Link>
-                    </li>
-                  </nav>
-                </div>
-                {/* Client Navbar */}
-                <div className="">
-                  <h2 className="text-[14px] font-semibold text-[#797C86] mb-4 lg:mb-[20px] ">
-                    CLIENT
-                  </h2>
-                  <nav className="text-[16px] text-[#F2F2F3] font-medium space-y-2 flex flex-col">
-                    <li className="list-none border-b inline-block border-[#1C1C21] pb-1">
-                      <Link to="/klovesto">KLOVESTO</Link>
-                    </li>
-                    <li className="list-none border-b inline-block border-[#1C1C21] pb-1">
-                      <Link to="/nukeway">NUKEWAY</Link>
-                    </li>
-                    <li className="list-none border-b inline-block border-[#1C1C21] pb-1">
-                      <Link to="/clovens">CLOVEN’S</Link>
-                    </li>
-                    <li className="list-none border-b inline-block border-[#1C1C21] pb-1">
-                      <Link to="/menvol">MENVOL</Link>
-                    </li>
-                  </nav>
-                </div>
-              </div>
-              {/* Portfolio Navbar */}
-              <div className="grid grid-cols-2 gap-12 lg:gap-[100px]  pr-20 pl-5 ">
-                <div>
-                  <h2 className="text-[14px] font-semibold text-[#797C86] mb-4 lg:mb-[20px]">
-                    PORTFOLIO
-                  </h2>
-                  <nav className="text-[16px] text-[#F2F2F3] font-medium space-y-2 flex flex-col">
-                    <li className="list-none border-b inline-block border-[#1C1C21] pb-1">
-                      <Link to="/events">EVENTS</Link>
-                    </li>
-                    <li className="list-none border-b border-[#1C1C21] pb-1">
-                      <Link to="/portrait">PORTRAIT</Link>
-                    </li>
-                    <li className="list-none border-b border-[#1C1C21] pb-1">
-                      <Link to="/branding">BRANDING</Link>
-                    </li>
-                    <li className="list-none border-b border-[#1C1C21] pb-1">
-                      <Link to="/commerciale">COMMERCIALE</Link>
-                    </li>
-                    <li className="list-none border-b border-[#1C1C21] pb-1">
-                      <Link to="/wedding">WEDDING</Link>
-                    </li>
-                  </nav>
-                </div>
-                {/* Services Navbar */}
-                <div>
-                  <h2 className="text-[14px] font-semibold text-[#797C86] mb-4 lg:mb-[20px]">
-                    SERVICES
-                  </h2>
-                  <nav className="text-[16px] text-[#F2F2F3] font-medium space-y-2 flex flex-col">
-                    <li className="list-none border-b inline-block border-[#1C1C21] pb-1">
-                      <Link to="/portraits">PORTRAITS</Link>
-                    </li>
-                    <li className="list-none border-b inline-block border-[#1C1C21] pb-1">
-                      <Link to="/events">EVENTS</Link>
-                    </li>
-                    <li className="list-none border-b inline-block border-[#1C1C21] pb-1">
-                      <Link to="/commercial">COMMERCIAL</Link>
-                    </li>
-                  </nav>
-                </div>
-              </div>
-            </div>
           </div>
           {/* div for nav end */}
         </div>
         <div>
-          <img className="hidden lg:block  h-[187px]" srcSet={Right} />
+          
         </div>
       </div>
       {/* first footer end */}
