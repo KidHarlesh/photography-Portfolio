@@ -2,11 +2,8 @@ import React from "react";
 import { GoArrowRight } from "react-icons/go";
 import Rightclick from "../assets/Right-Button.svg";
 import Leftclick from "../assets/Left-Button.svg";
-import African from "../assets/African-Image.png";
-import Direction from "../assets/Vector-Stroke.svg";
-import whitewoman from "../assets/white-Image.png";
-import Carton from "../assets/Carton-Image.png";
 import { Link } from "react-router-dom";
+import { portfolioWork } from "../constant/Data";
 
 const Portfoliosection = () => {
   return (
@@ -45,30 +42,26 @@ const Portfoliosection = () => {
           </div>
         </div>
         {/* image and tag */}
-        <div className="pt-[40px] lg:flex gap-[30px]">
-          <div>
-            <img
-              className="block mx-auto lg:mx-0 hover:scale-105 transition-transform duration-100 "
-              srcSet={African}
-              loading="lazy"
-            />
-            <div className="flex items-center lg:items-start justify-between pt-[16px]">
-              <div>
-                <p className="text-[16px] font-medium  text-[#CACACE]">
-                  Faces of Resilience
-                </p>
-                <p className="text-[#797C86] text-[14px]">March 2022</p>
-              </div>
-              <div>
-                <button className="text-[20px] lg:text-[14px] text-[#F2F2F3] flex items-center  gap-[8px] font-light border-b border-[#1C1C21] ">
-                  View Project
-                  <span>
-                    <img className="w-4 xl:w-3" srcSet={Direction} />
-                  </span>
-                </button>
-              </div>
+        <div className="pt-[40px] lg:flex gap-[30px] ">
+          {portfolioWork.map((work, index) => (
+            <div key={work.paragraph} className={work.class}>
+              <img
+                src={work.image}
+                className="block mx-auto lg:mx-0 hover:scale-105 transition-transform duration-100 "
+              />
+              <p className="text-[16px] font-medium  text-[#CACACE]">
+                {work.paragraph}
+              </p>
+              <p className="text-[#797C86] text-[14px]">{work.paragraphtwo}</p>
+              <button className="text-[20px] lg:text-[14px] text-[#F2F2F3] flex items-center  gap-[8px] font-light border-b border-[#1C1C21] ">
+                {work.button}
+                <span>
+                  <img className="w-4 xl:w-3" src={work.imageIcon} />
+                </span>
+              </button>
             </div>
-          </div>
+          ))}
+
           <div className="flex justify-center pt-[40px] lg:hidden ">
             <div className="flex border border-[#1C1C21] p-2 gap-2  rounded-full ">
               <img
@@ -81,52 +74,7 @@ const Portfoliosection = () => {
               />
             </div>
           </div>
-          <div className="hidden lg:block ">
-            <img
-              className="hover:scale-105 transition-transform duration-100"
-              srcSet={whitewoman}
-              loading="lazy"
-            />
-            <div className="flex items-center lg:items-start justify-between pt-[16px]">
-              <div>
-                <p className=" text-[16px] font-medium  text-[#CACACE]">
-                  A Wedding Tale
-                </p>
-                <p className="text-[#797C86] text-[14px]">January 2020</p>
-              </div>
-              <div>
-                <button className="text-[20px] lg:text-[14px] text-[#F2F2F3] flex items-center gap-[8px] font-light border-b border-[#1C1C21] ">
-                  View Project
-                  <span>
-                    <img className="w-4  xl:w-3" src={Direction} />
-                  </span>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div className="hidden lg:block">
-            <img
-              className="hover:scale-105 transition-transform duration-100"
-              srcSet={Carton}
-              loading="lazy"
-            />
-            <div className="flex items-center lg:items-start justify-between pt-[16px]">
-              <div>
-                <p className=" text-[16px] font-medium  text-[#CACACE]">
-                  Product Elegance
-                </p>
-                <p className="text-[#797C86] text-[14px]">January 2020</p>
-              </div>
-              <div>
-                <button className="text-[20px] lg:text-[14px] text-[#F2F2F3] flex items-center gap-[8px] font-light border-b border-[#1C1C21] ">
-                  View Project
-                  <span>
-                    <img className="w-4 xl:w-3 " src={Direction} />
-                  </span>
-                </button>
-              </div>
-            </div>
-          </div>
+
         </div>
       </div>
     </section>

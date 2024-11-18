@@ -1,13 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Facebook from "../assets/Facebook-Button.svg";
-import Twitter from "../assets/Twitter-button.svg";
-import Linkedin from "../assets/Linkedin-Button.svg";
-import Rating from "../assets/Star-Container.svg";
 import Rightclick from "../assets/Right-Button.svg";
 import Leftclick from "../assets/Left-Button.svg";
 import { GoArrowRight } from "react-icons/go";
+import { testimonial } from "../constant/Data";
 import Abstractimage from "../assets/Abstract-Design.png";
+
 
 const Testimonialsection = () => {
   return (
@@ -68,134 +66,51 @@ const Testimonialsection = () => {
         </div>
         {/* textimonial speech */}
         <div className="flex justify-between items-center  border-t   border-[#1C1C21] gap-5  pt-[40px]">
-          <div
-            className="bg-cover p-[24px] mb-10  lg:border-none lg:pt-10 "
-            style={{ backgroundImage: `url(${Abstractimage})` }}
-          >
-            <div className=" flex justify-between items-center pb-5 ">
-              <div>
-                <p className="text-[16px] text-[#E4E4E6]  font-medium">
-                  Emily johnson
-                </p>
-                <p className="text-[14px] text-[#62646C] font-normal">
-                  USA,California
-                </p>
-              </div>
-              <div className=" border border-[#1C1C21] flex w-fit rounded-full   p-[8px]  xl:p-[13px]  gap-[6px] bg-black   ">
-                <Link>
-                  <img
-                    className="w-10 lg:w-6 xl:w-8  hover:bg-[#1C1C21]  hover:text-[#bfbfbf] rounded-lg transition delay-150 duration-100 ease-in-out"
-                    src={Facebook}
-                  />
-                </Link>
-                <Link>
-                  <img
-                    className="w-10 lg:w-6 xl:w-8   hover:bg-[#1C1C21]  hover:text-[#bfbfbf] rounded-lg transition delay-150 duration-100 ease-in-out"
-                    src={Twitter}
-                  />
-                </Link>
-                <Link>
-                  <img
-                    className="w-10 lg:w-6 xl:w-8   hover:bg-[#1C1C21] hover:text-[#bfbfbf] rounded-lg transition delay-150 duration-100 ease-in-out"
-                    src={Linkedin}
-                  />
-                </Link>
-              </div>
-            </div>
-            <div className="pb-5">
-              <img src={Rating} />
-            </div>
-            <p className="text-[16px] font-medium text-[#E4E4E6]">
-              Damien's photography doesn't just capture moments; it captures
-              emotions. Hes work is simply mesmerizing.
-            </p>
-          </div>
-          {/* 2nd container */}
-          <div
-            className="bg-cover p-[24px] mb-10  hidden lg:block"
-            style={{ backgroundImage: `url(${Abstractimage})` }}
-          >
-            <div className=" flex justify-between items-center pb-5 ">
-              <div>
-                <p className="text-[16px] text-[#E4E4E6]  font-medium">
-                  John Smith
-                </p>
-                <p className="text-[14px] text-[#62646C] font-normal">
-                  USA, California
+          {testimonial.map((tech, index) => (
+            <div className={tech.class} key={index}>
+              <div
+                className="bg-cover p-[24px] mb-10  lg:border-none lg:pt-10 "
+                style={{ backgroundImage: `url(${Abstractimage})` }}
+              >
+                <div className=" flex justify-between items-center pb-5 ">
+                  <div>
+                    <p className="text-[16px] text-[#E4E4E6]  font-medium">
+                      {tech.paragraph}
+                    </p>
+                    <p className="text-[14px] text-[#62646C] font-normal">
+                      {tech.paragraphTwo}
+                    </p>
+                  </div>
+                  <div className=" border border-[#1C1C21] flex w-fit rounded-full   p-[8px]  xl:p-[13px]  gap-[6px] bg-black   ">
+                    <Link>
+                      <img
+                        className="w-10 lg:w-6 xl:w-8  hover:bg-[#1C1C21]  hover:text-[#bfbfbf] rounded-lg transition delay-150 duration-100 ease-in-out"
+                        src={tech.image}
+                      />
+                    </Link>
+                    <Link>
+                      <img
+                        className="w-10 lg:w-6 xl:w-8   hover:bg-[#1C1C21]  hover:text-[#bfbfbf] rounded-lg transition delay-150 duration-100 ease-in-out"
+                        src={tech.imageTwo}
+                      />
+                    </Link>
+                    <Link>
+                      <img
+                        className="w-10 lg:w-6 xl:w-8   hover:bg-[#1C1C21] hover:text-[#bfbfbf] rounded-lg transition delay-150 duration-100 ease-in-out"
+                        src={tech.imageThree}
+                      />
+                    </Link>
+                  </div>
+                </div>
+                <div className="pb-5">
+                  <img src={tech.imageFour} />
+                </div>
+                <p className="text-[16px] font-medium text-[#E4E4E6]">
+                  {tech.paragraphThree}
                 </p>
               </div>
-              <div className=" border border-[#1C1C21] flex w-fit rounded-full   p-[8px]  xl:p-[13px]  gap-[6px] bg-black   ">
-                <Link>
-                  <img
-                    className="w-10 lg:w-6 xl:w-8  hover:bg-[#1C1C21]  hover:text-[#bfbfbf] rounded-lg transition delay-150 duration-300 ease-in-out"
-                    src={Facebook}
-                  />
-                </Link>
-                <Link>
-                  <img
-                    className="w-10 lg:w-6 xl:w-8   hover:bg-[#1C1C21]  hover:text-[#bfbfbf] rounded-lg transition delay-150 duration-300 ease-in-out"
-                    src={Twitter}
-                  />
-                </Link>
-                <Link>
-                  <img
-                    className="w-10 lg:w-6 xl:w-8   hover:bg-[#1C1C21] hover:text-[#bfbfbf] rounded-lg transition delay-150 duration-300 ease-in-out"
-                    src={Linkedin}
-                  />
-                </Link>
-              </div>
             </div>
-            <div className="pb-5">
-              <img src={Rating} />
-            </div>
-            <p className="text-[16px] font-medium text-[#E4E4E6]">
-              Damien has an incredible talent for making every event feel
-              effortless, and the results speak for themselves.
-            </p>
-          </div>
-          {/* 3rd image container */}
-          <div
-            className="bg-cover p-6 mb-10  hidden lg:block"
-            style={{ backgroundImage: `url(${Abstractimage})` }}
-          >
-            <div className=" flex justify-between items-center pb-5 ">
-              <div>
-                <p className="text-[16px] text-[#E4E4E6]  font-medium">
-                  Samantha Davis
-                </p>
-                <p className="text-[14px] text-[#62646C] font-normal">
-                  USA,California
-                </p>
-              </div>
-              <div className=" border border-[#1C1C21] flex w-fit rounded-full   p-[8px]  xl:p-[13px]  gap-[6px]  bg-black  ">
-                <Link>
-                  <img
-                    className="w-10 lg:w-6 xl:w-8  hover:bg-[#1C1C21]  hover:text-[#bfbfbf] rounded-lg transition delay-150 duration-300 ease-in-out"
-                    src={Facebook}
-                  />
-                </Link>
-                <Link>
-                  <img
-                    className="w-10 lg:w-6 xl:w-8   hover:bg-[#1C1C21]  hover:text-[#bfbfbf] rounded-lg transition delay-150 duration-300 ease-in-out"
-                    src={Twitter}
-                  />
-                </Link>
-                <Link>
-                  <img
-                    className="w-10 lg:w-6 xl:w-8   hover:bg-[#1C1C21] hover:text-[#bfbfbf] rounded-lg transition delay-150 duration-300 ease-in-out"
-                    src={Linkedin}
-                  />
-                </Link>
-              </div>
-            </div>
-            <div className="pb-5">
-              <img src={Rating} />
-            </div>
-            <p className="text-[16px] font-medium text-[#E4E4E6]">
-              I was blown away by Damien's ability to capture the essence of our
-              wedding day. Hes photographs are our memories.
-            </p>
-          </div>
+          ))}
         </div>
         {/* end of textimonial speach */}
         <div className=" flex justify-center items-center lg:hidden  pb-[20px] ">
