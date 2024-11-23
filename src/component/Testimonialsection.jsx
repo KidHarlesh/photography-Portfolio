@@ -4,7 +4,7 @@ import Rightclick from "../assets/Right-Button.svg";
 import Leftclick from "../assets/Left-Button.svg";
 import { GoArrowRight } from "react-icons/go";
 import { testimonial } from "../constant/Data";
-import Abstractimage from "../assets/Abstract-Design.png";
+// import Abstractimage from "../assets/Abstract-Design.png";
 
 
 const Testimonialsection = () => {
@@ -68,10 +68,7 @@ const Testimonialsection = () => {
         <div className="flex justify-between items-center  border-t   border-[#1C1C21] gap-5  pt-[40px]">
           {testimonial.map((tech, index) => (
             <div className={tech.class} key={index}>
-              <div
-                className="bg-cover p-[24px] mb-10  lg:border-none lg:pt-10 "
-                style={{ backgroundImage: `url(${Abstractimage})` }}
-              >
+              <div className="bg-cover p-[24px] mb-10  lg:border-none lg:pt-10 bg-testimonial ">
                 <div className=" flex justify-between items-center pb-5 ">
                   <div>
                     <p className="text-[16px] text-[#E4E4E6]  font-medium">

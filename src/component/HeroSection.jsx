@@ -1,32 +1,43 @@
-import React from "react";
 import Vector from "../assets/Vector-img.svg";
 import Button from "../assets/Blue-Button.svg";
 import { Link } from "react-router-dom";
-import Heroimagesection from "../assets/Hero-sectionimage.png";
+import BlackImage from "../assets/long-blackImage.png";
+import MobileImage from "../assets/long-blackimagemd.png";
+import Heroimage from "../assets/Hero-container.png";
 
 const HeroSection = () => {
   return (
-    <section className=" bg-black  border-solid   border-[#2F2F37] border-x-0 pt-[80px] lg:pt-20  ">
-      <div className="gap-[20px] grid container lg:flex   justify-between items-center ">
-        <div className="pt-[40px] lg:pt-0 ">
-          <h1 className=" text-[14px] font-normal xl:text-[16px] lg:font-medium text-[#62646C]">
-            STUNNINGPHOTOGRAPHYBY <br />
-            <span className=" text-[40px] xl:text-[60px] text-[#E4E4E6] font-semibold ">
+    <section className="bg-black border-solid border-x-0 border-[#2F2F37] pt-24 lg:pt-20">
+      {/* Hero Content */}
+      <div className="container grid lg:flex justify-between items-center relative py-10 lg:py-0 lg:h-[280px]">
+        {/* Left Section: Title */}
+        <div className="pb-5 lg:pb-0">
+          <h1 className="text-[#62646C] text-sm font-normal xl:text-base lg:font-medium">
+            STUNNING PHOTOGRAPHY BY
+            <br />
+            <span className="text-[#E4E4E6] text-4xl xl:text-6xl font-semibold">
               DAMIEN BRAUN
             </span>
           </h1>
         </div>
-        <div className="hidden lg:block ">
-          <img className="   " src={Vector} alt="image" />
+        {/* Center Section: Vector Image */}
+        <div className="hidden lg:block absolute left-1/2 transform -translate-x-1/2">
+          <img
+            src={Vector}
+            alt="Decorative vector"
+            className="w-[300px] max-h-[279px]"
+          />
         </div>
+
         <div>
-          <h1 className=" text-[39px] text-[#FFFFFF] font-semibold ">
+          <h1 className="text-white text-4xl font-semibold">
             <span className="flex gap-3 items-center">
               Let’s
               <Link>
                 <img
-                  className="max-w-14 lg:max-w-20  animate-bounce "
                   src={Button}
+                  alt="Call-to-action button"
+                  className="w-14 lg:w-20 animate-bounce"
                 />
               </Link>
             </span>
@@ -34,9 +45,24 @@ const HeroSection = () => {
           </h1>
         </div>
       </div>
-      {/* for hero section image */}
+      {/* Hero Image */}
+      <div className="w-full">
+        {/* Desktop Image */}
+        <img
+          src={BlackImage}
+          alt="Hero background"
+          loading="lazy"
+          className="hidden lg:block w-full"
+        />
+        {/* Mobile Image */}
+        <img
+          src={MobileImage}
+          alt="Mobile background"
+          className="lg:hidden w-full h-auto"
+        />
+      </div>
       <div className="container">
-        <img src={Heroimagesection} loading="lazy" />
+        <img src={Heroimage} alt="" />
       </div>
     </section>
   );

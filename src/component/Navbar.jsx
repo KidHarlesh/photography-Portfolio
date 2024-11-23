@@ -39,7 +39,7 @@ const Navbar = () => {
             </li>
           </ul>
           <div
-            className="p-5 border  border-r-0  border-[#2F2F37] rounded-tl-lg lg:hidden "
+            className="p-5 border  border-r-0 border-b-0  border-[#2F2F37] rounded-tl-lg lg:hidden "
             onClick={handleNav}
           >
             <FaBars className=" text-dark text-3xl" />
@@ -90,7 +90,6 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-              
       </div>
     </section>
   );
