@@ -61,8 +61,8 @@ const HeroSection = () => {
           className="lg:hidden w-full h-auto"
         />
       </div>
-      <div className="container">
-        <img src={Heroimage} alt="" />
+      <div className="container ">
+        <img src={Heroimage} alt="" className="h-[223px] lg:h-[460px]" />
       </div>
     </section>
   );

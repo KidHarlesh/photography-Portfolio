@@ -3,15 +3,17 @@ import { GoArrowRight } from "react-icons/go";
 // import StarIcon from "../assets/Star-icon.svg";
 import Facebook from "../assets/Facebook-Button.svg";
 import Twitter from "../assets/Twitter-button.svg";
-import Linkedin from "../assets/Linkedin-Button.svg"
+import Linkedin from "../assets/Linkedin-Button.svg";
 import { Link } from "react-router-dom";
 import Image from "../assets/About-image.png";
+import { PiStarFourLight } from "react-icons/pi";
 // import cv from "../assets/Alowoesin-cv.pdf";
+
 
 const About = () => {
   return (
     <section className="  bg-black">
-      <div className=" container pt-[80px] pb-[100px] lg:pb-[100px]">
+      <div className=" container pt-[80px] lg:pb-[100px]">
         {/* up contianer */}
         <div className=" border-b-2 border-[#1C1C21]  lg:flex items-center justify-between ">
           <p className="text-[14px] lg:text-[16px] font-semibold text-[#797C86] pb-[20px]">
@@ -42,9 +44,10 @@ const About = () => {
                 <span className=" pr-[5px]">
                   {/* <img className=" lg:w-6 xl:w-8 " src={StarIcon} /> */}
                 </span>
+                <PiStarFourLight  className="w-6 h-14"/>
                 Introduction
               </p>
-              <p className="text-[14px] lg:text-[12px] xl:text-[14px] font-light text-[#AFB0B6]">
+              <p className="text-[14px] lg:text-[12px] xl:text-[14px] font-normal text-[#AFB0B6]  ">
                 My journey as a photographer has been a lifelong quest to
                 capture the extraordinary in the ordinary, to freeze fleeting
                 moments in time, and to share the world's beauty as I see it.
@@ -55,7 +58,7 @@ const About = () => {
               </p>
             </div>
             {/* contanct container */}
-            <div className="  border border-[#1C1C21] rounded-b-lg p-[24px] lg:p-[18px] xl:p-[28px] text-[#CACACE] font-medium ">
+            <div className=" hidden border border-[#1C1C21] rounded-b-lg p-[24px] lg:p-[18px] xl:p-[28px] text-[#CACACE] font-medium  lg:block">
               <p className="text-[20px] lg:text-[18px]  xl:text-[30px] flex items-center pb-[20px] lg:pb-[16px] xl:pb-[20px] ">
                 <span className="pr-[5px]">
                   {/* <img className=" lg:w-6 xl:w-8 " src={StarIcon} /> */}
@@ -108,7 +111,7 @@ const About = () => {
                       Let’s Work
                     </button>
                   </Link>
-                  <a >
+                  <a>
                     <button className="text-[14px] lg:text-[12px] font-medium text-[#FFFFFF] bg-[#1C1C21] text-center px-[100px] lg:px-[20px] xl:px-[30px]  py-[14px]  lg:py-[12px] xl:py-[16px] rounded-xl  hover:bg-[#232323] ">
                       Download CV
                     </button>
