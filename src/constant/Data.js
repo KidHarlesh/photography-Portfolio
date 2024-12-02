@@ -66,3 +66,37 @@ export const testimonial = [
     class: "hidden lg:block",
   },
 ];
+
+
+export const dropDown = [
+  {
+    heading: "What type of photography do you specialize in ?",
+    paragraph:
+      "I specialize in [Portrait, Landscape, Event, etc.] photography, capturing moments that tell unique stories.",
+  },
+  {
+    heading: "hello?",
+    paragraph:
+      " meeeeeee I specialize in [Portrait, Landscape, Event, etc.] photography, capturing moments that tell unique stories.",
+  },
+  {
+    heading: "hello?",
+    paragraph:
+      " meeeeeee I specialize in [Portrait, Landscape, Event, etc.] photography, capturing moments that tell unique stories.",
+  },
+  {
+    heading: "hello?",
+    paragraph:
+      " meeeeeee I specialize in [Portrait, Landscape, Event, etc.] photography, capturing moments that tell unique stories.",
+  },
+  {
+    heading: "hello?",
+    paragraph:
+      " meeeeeee I specialize in [Portrait, Landscape, Event, etc.] photography, capturing moments that tell unique stories.",
+  },
+  {
+    heading: "hello?",
+    paragraph:
+      " meeeeeee I specialize in [Portrait, Landscape, Event, etc.] photography, capturing moments that tell unique stories.",
+  },
+];
