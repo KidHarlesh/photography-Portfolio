@@ -12,24 +12,25 @@ const FAQuestion = () => {
 
   return (
     <section className="bg-black">
-      <div className="container">
-        <p className="text-[#797C86]">FAQ's</p>
-        <h1 className="text-[#FFFFFF] text-[28px] font-semibold">
+      <div className="container  ">
+        <p className="text-[#797C86] text-[14px] font-semibold">FAQ's</p>
+        <h1 className="text-[#FFFFFF] text-[28px] font-semibold pr-6 border-b  border-[#2F2F37] pb-[20px] ">
           Frequently Asked Questions
         </h1>
         <div>
           {dropDown.map((drop, index) => (
-            <div key={index} className="">
+            <div key={index} className="px-6 border-b  border-[#2F2F37]">
               <button
-                className="text-[#AFB0B6] flex items-center justify-between w-full"
+                className="text-[#AFB0B6] flex items-center justify-between w-full text-left  "
                 onClick={() => handleToggle(index)}
               >
-                {drop.heading}
+                <h1 className="pr-20 py-5  ">{drop.heading}</h1>
                 {activeIndex === index ? <FaChevronDown /> : <FaChevronUp />}
               </button>
               {activeIndex === index && (
-                <p className="text-[#AFB0B6]  ">
-                  {drop.paragraph}</p>
+                <p className="text-[#797C86]  font-normal text-[14px]">
+                  {drop.paragraph}
+                </p>
               )}
             </div>
           ))}

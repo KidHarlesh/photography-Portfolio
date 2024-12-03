@@ -70,33 +70,24 @@ export const testimonial = [
 
 export const dropDown = [
   {
-    heading: "What type of photography do you specialize in ?",
+    heading: "WHAT TYPE OF PHOTOGRAPHY DO YOU SPECIALIZE IN?",
     paragraph:
       "I specialize in [Portrait, Landscape, Event, etc.] photography, capturing moments that tell unique stories.",
   },
   {
-    heading: "hello?",
-    paragraph:
-      " meeeeeee I specialize in [Portrait, Landscape, Event, etc.] photography, capturing moments that tell unique stories.",
+    heading: "HOW CAN I BOOK A PHOTOGRAPHY SESSION WITH YOU ?",
+    paragraph: " NO ANSWER YET",
   },
   {
-    heading: "hello?",
+    heading: "WHAT EQUIPMENT DO YOU USE FOR YOUR PHOTOGRAPHY? ",
     paragraph:
-      " meeeeeee I specialize in [Portrait, Landscape, Event, etc.] photography, capturing moments that tell unique stories.",
+      "NO ANSWER YET",
   },
   {
-    heading: "hello?",
+    heading: "CAN I REQUEST A SPECIFIC LOCATION FOR A?",
     paragraph:
-      " meeeeeee I specialize in [Portrait, Landscape, Event, etc.] photography, capturing moments that tell unique stories.",
+      "NO ANSWER YET",
   },
-  {
-    heading: "hello?",
-    paragraph:
-      " meeeeeee I specialize in [Portrait, Landscape, Event, etc.] photography, capturing moments that tell unique stories.",
-  },
-  {
-    heading: "hello?",
-    paragraph:
-      " meeeeeee I specialize in [Portrait, Landscape, Event, etc.] photography, capturing moments that tell unique stories.",
-  },
+
 ];
+
