@@ -90,4 +90,27 @@ export const dropDown = [
   },
 
 ];
+  
+
+export const rightDropdown = [
+  {
+    heading: "WHAT IS YOUR EDITING PROCESS LIKE?",
+    paragraph:
+      "NO ANSWER YET ",
+  },
+  {
+    heading: "ARE DIGITAL FILES INCLUDED IN YOUR PHOTOGRAPHY PACKAGES ?",
+    paragraph: " NO ANSWER YET",
+  },
+  {
+    heading: " DO YOU OFFER PRINTS OF YOUR PHOTOGRAPHS ? ",
+    paragraph:
+      "Yes, prints are available for purchase. Explore the 'Prints' section for more details on sizes and pricing.",
+  },
+  {
+    heading:
+      " HOW LONG DOES IT TAKE TO RECEIEVE THE EDITED PHOTOS AFTER A SESSION ?",
+    paragraph: "NO ANSWER YET",
+  },
+];
 
