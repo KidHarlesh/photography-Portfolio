@@ -115,12 +115,16 @@ const Portfoliosection = () => {
                   className="block mx-auto lg:mx-0 hover:scale-105 transition-transform duration-100"
                   alt={work.paragraph}
                 />
-                <p className="text-[16px] font-medium text-[#CACACE]">
-                  {work.paragraph}
-                </p>
-                <p className="text-[#797C86] text-[14px]">
-                  {work.paragraphtwo}
-                </p>
+                 <div className="flex justify-between pt-4 items-center">
+                <div>
+                  <p className="text-[16px] font-medium text-[#CACACE]">
+                    {work.paragraph}
+                  </p>
+                  <p className="text-[#797C86] text-[14px]">
+                    {work.paragraphtwo}
+                  </p>
+                </div>
+
                 <button className="text-[20px] lg:text-[14px] text-[#F2F2F3] flex items-center gap-[8px] font-light border-b border-[#1C1C21]">
                   {work.button}
                   <span>
@@ -131,6 +135,7 @@ const Portfoliosection = () => {
                     />
                   </span>
                 </button>
+                </div>
               </div>
             ))}
           </div>
