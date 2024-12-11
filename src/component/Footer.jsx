@@ -55,24 +55,30 @@ const Footer = () => {
         <div>
           <nav>
             <ul>
-              <h1></h1>
-              <li></li>
-              <li></li>
+              <h1>HOME</h1>
+              <li>ABOUTME</li>
+              <li>MYWORKS</li>
+              <li>TESTIMONIALS</li>
             </ul>
             <ul>
-              <h1></h1>
-              <li></li>
-              <li></li>
+              <h1>CLIENTS</h1>
+              <li>NUKEWAY</li>
+              <li>CLOVEN'S</li>
+              <li>MENVOL</li>
             </ul>
             <ul>
-              <h1></h1>
-              <li></li>
-              <li></li>
+              <h1>PORTFOLIO</h1>
+              <li>EVENTS</li>
+              <li>PORTRAIT</li>
+              <li>BRANDING</li>
+              <li>COMMERCIALE</li>
+              <li>WEDDING</li>
             </ul>
             <ul>
-              <h1></h1>
-              <li></li>
-              <li></li>
+              <h1>SERVICES</h1>
+              <li>PORTRATS</li>
+              <li>EVENTS</li>
+              <li> OMMERCIAL</li>
             </ul>
           </nav>
         </div>
