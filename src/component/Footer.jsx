@@ -31,9 +31,9 @@ const Footer = () => {
       </div>
 
       {/* links conatiner */}
-      <div>
+      <div className="container">
         {/* TOP CONTAINER */}
-        <div className="px-5 py-10 container border">
+        <div className="px-5 py-10  border">
           <p className="text-[14px] font-semibold text-[#797C86] pb-5">
             A MORE MEANINGFULL HOME FOR PHOTOGRAPHY
           </p>
@@ -52,22 +52,22 @@ const Footer = () => {
           </p>
         </div>
         {/* downcontainer */}
-        <div>
+        <div className=" border border-t-0">
           <nav>
-            <ul>
-              <h1>HOME</h1>
+            <ul className=" text-[14px]">
+              <h1 className="text-[#797C86] font-semibold ">HOME</h1>
               <li>ABOUTME</li>
               <li>MYWORKS</li>
               <li>TESTIMONIALS</li>
             </ul>
             <ul>
-              <h1>CLIENTS</h1>
+              <h1 className="text-[#797C86]  ">CLIENTS</h1>
               <li>NUKEWAY</li>
               <li>CLOVEN'S</li>
               <li>MENVOL</li>
             </ul>
             <ul>
-              <h1>PORTFOLIO</h1>
+              <h1 className="text-[#797C86]">PORTFOLIO</h1>
               <li>EVENTS</li>
               <li>PORTRAIT</li>
               <li>BRANDING</li>
@@ -75,7 +75,7 @@ const Footer = () => {
               <li>WEDDING</li>
             </ul>
             <ul>
-              <h1>SERVICES</h1>
+              <h1 className="text-[#797C86]">SERVICES</h1>
               <li>PORTRATS</li>
               <li>EVENTS</li>
               <li> OMMERCIAL</li>
@@ -85,7 +85,7 @@ const Footer = () => {
       </div>
 
       {/* Footer Bottom */}
-      <div className="p-5 container">
+      <div className="p-5 container ">
         <div className="flex justify-center">
           <p className="text-[#797C86] text-[14px] font-normal text-center border-r border-[#1C1C21] pr-2">
             <Link>Terms & Conditions</Link>
