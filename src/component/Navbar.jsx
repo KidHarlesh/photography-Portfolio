@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <section className="bg-black text-[#AFB0B6]">
       <nav className="fixed top-0 w-full bg-black border-b border-[#2F2F37] z-50">
-        <div className="container flex justify-between items-center border-x border-[#2F2F37] pt-8 pl-10 lg:pr-10">
+        <div className=" flex justify-between items-center border-x border-[#2F2F37] pt-8  ml-4 mr-4  lg:ml-[50px] lg:mr-[50px]  pl-[18px] lg:pr-[18px]">
           <Link>
             <img srcSet={Mobilelogo} alt="Logo" />
           </Link>
@@ -47,7 +47,7 @@ const Navbar = () => {
             <FaBars className="text-dark text-3xl" />
           </div>
           <div className="hidden lg:block">
-            <button className="bg-[#1C1C21] py-[10px] px-[15px] rounded-lg text-[10px] transition duration-300">
+            <button className="bg-[#1C1C21] py-[10px] px-[15px] rounded-lg text-[14px] transition duration-300">
               Contact Me
             </button>
           </div>
@@ -56,11 +56,12 @@ const Navbar = () => {
 
       {/* Mobile Navbar */}
       <div
-        
-  className={`fixed z-[9999] top-0 right-0 w-full max-w-[300px] h-screen bg-black ${
-    nav ? "translate-x-0 transition-transform duration-500 ease-in-out" : "translate-x-full"
-  }`}
->
+        className={`fixed z-[9999] top-0 right-0 w-full max-w-[300px] h-screen bg-black ${
+          nav
+            ? "translate-x-0 transition-transform duration-500 ease-in-out"
+            : "translate-x-full"
+        }`}
+      >
         <div className="flex justify-between items-center px-[15px] py-[20px]">
           <Link>
             <img src={Mobilelogo} alt="Logo" />

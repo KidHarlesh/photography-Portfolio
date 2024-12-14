@@ -12,7 +12,7 @@ const HeroSection = () => {
       <div className="container grid lg:flex justify-between items-center relative py-10 lg:py-0 lg:h-[280px]">
         {/* Left Section: Title */}
         <div className="pb-5 lg:pb-0">
-          <h1 className="text-[#62646C] text-sm font-normal xl:text-base lg:font-medium">
+          <h1 className="text-[#62646C] text-sm lg:text-[16px] font-normal xl:text-[22px] lg:font-medium">
             STUNNING PHOTOGRAPHY BY
             <br />
             <span className="text-[#E4E4E6] text-4xl xl:text-6xl font-semibold">

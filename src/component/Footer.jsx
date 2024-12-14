@@ -31,9 +31,9 @@ const Footer = () => {
       </div>
 
       {/* links conatiner */}
-      <div className="container">
+      <div className="container flex flex-col lg:flex-row justify-center">
         {/* TOP CONTAINER */}
-        <div className="px-5 py-10  border">
+        <div className="px-5 py-10  border ">
           <p className="text-[14px] font-semibold text-[#797C86] pb-5">
             A MORE MEANINGFULL HOME FOR PHOTOGRAPHY
           </p>
@@ -52,34 +52,39 @@ const Footer = () => {
           </p>
         </div>
         {/* downcontainer */}
-        <div className=" border border-t-0">
-          <nav>
-            <ul className=" text-[14px]">
-              <h1 className="text-[#797C86] font-semibold ">HOME</h1>
-              <li>ABOUTME</li>
-              <li>MYWORKS</li>
-              <li>TESTIMONIALS</li>
-            </ul>
-            <ul>
-              <h1 className="text-[#797C86]  ">CLIENTS</h1>
-              <li>NUKEWAY</li>
-              <li>CLOVEN'S</li>
-              <li>MENVOL</li>
-            </ul>
-            <ul>
-              <h1 className="text-[#797C86]">PORTFOLIO</h1>
-              <li>EVENTS</li>
-              <li>PORTRAIT</li>
-              <li>BRANDING</li>
-              <li>COMMERCIALE</li>
-              <li>WEDDING</li>
-            </ul>
-            <ul>
-              <h1 className="text-[#797C86]">SERVICES</h1>
-              <li>PORTRATS</li>
-              <li>EVENTS</li>
-              <li> OMMERCIAL</li>
-            </ul>
+        <div className=" border pl-10 lg:pl-0   py-[40px] max-w-[100%]  ">
+          <nav className="flex flex-wrap  text-[#F2F2F3] gap-10 lg:gap-[20px] xl:gap-[50px] lg:mx-10 xl:mx-20  ">
+            <div className="flex flex-wrap gap-[65px] lg:gap-[20px] xl:gap-[50px] ">
+              <ul className=" text-[14px]  ">
+                <h1 className="text-[#797C86] font-semibold ">HOME</h1>
+                <li className="border-b  pb-[4px] pt-[12px]">ABOUTME</li>
+                <li className="border-b pb-[4px] pt-[9px]">MYWORKS</li>
+                <li className="border-b pb-[4px] pt-[9px]">TESTIMONIALS</li>
+              </ul>
+              <ul className=" text-[14px]  ">
+                <h1 className="text-[#797C86]  ">CLIENTS</h1>
+                <li className="border-b pb-[4px] pt-[6px]">KLOVESTO</li>
+                <li className="border-b pb-[4px] pt-[6px]">NUKEWAY</li>
+                <li className="border-b pb-[4px] pt-[6px]">CLOVEN'S</li>
+                <li className="border-b pb-[4px] pt-[6px]">MENVOL</li>
+              </ul>
+            </div>
+            <div className="flex flex-wrap  gap-[50px] lg:gap-[20px] xl:gap-[50px] ">
+              <ul className=" text-[14px]  ">
+                <h1 className="text-[#797C86] ">PORTFOLIO</h1>
+                <li className="border-b pb-[4px]  pt-[6px]">EVENTS</li>
+                <li className="border-b pb-[4px] pt-[6px]">PORTRAIT</li>
+                <li className="border-b pb-[4px] pt-[6px]">BRANDING</li>
+                <li className="border-b pb-[4px] pt-[6px]">COMMERCIALE</li>
+                <li className="border-b pb-[4px] pt-[6px]">WEDDING</li>
+              </ul>
+              <ul className=" text-[14px]  ">
+                <h1 className="text-[#797C86] ">SERVICES</h1>
+                <li className="border-b pb-[4px] pt-[6px]">PORTRATS</li>
+                <li className="border-b pb-[4px] pt-[6px]">EVENTS</li>
+                <li className="border-b pb-[4px] pt-[6px]"> OMMERCIAL</li>
+              </ul>
+            </div>
           </nav>
         </div>
       </div>
