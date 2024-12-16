@@ -6,7 +6,7 @@ const Porfolio = () => {
   return (
     <div className="bg-black h-screen ">
       <Navbar />
-      <h1 className="text-white text-center pt-60 text-[100px]">
+      <h1 className="text-white text-center pt-60 ">
         Under Construction.....
       </h1>
       <Footer />
