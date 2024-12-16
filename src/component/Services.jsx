@@ -26,7 +26,7 @@ const Services = () => {
             </div>
             <div className="pb-[20px] lg:pb-[0px] flex justify-between item-center gap-2 ">
               <div className="hidden lg:flex   ">
-                <div className="flex border border-[#1C1C21] p-2 xl:p-3 lg:p-1 gap-2  rounded-full ">
+                <div className="flex border border-[#1C1C21] p-2 lg:p-3  gap-2  rounded-full ">
                   <img
                     className="w-12 lg:w-8 xl:w-12 transition-transform duration-300 active:-translate-x-1.5 "
                     src={Leftclick}
@@ -37,8 +37,8 @@ const Services = () => {
                   />
                 </div>
               </div>
-              <button className="text-[14px] lg:text-[8px] xl:text-[14px] font-medium text-[#FFFFFF] flex items-center gap-1 xl:gap-2 bg-[#1C1C21] px-[20px] lg:px-[12px] xl:px-[20px]  py-[14px] lg:py-[6px] xl:py-[0px] rounded-xl mt-[20px] lg:mt-[0px]">
-                <Link>View All Service</Link>
+              <button className="text-[14px] font-medium text-[#FFFFFF] flex items-center gap-1 xl:gap-2 bg-[#1C1C21] px-[20px]   py-[14px]   rounded-xl mt-[20px] lg:mt-[0px]">
+                <Link to="/Service">View All Service</Link>
                 <GoArrowRight className="mt-1 lg:mt-0" />
               </button>
             </div>
