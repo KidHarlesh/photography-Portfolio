@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <section className="bg-black text-[#AFB0B6]">
+    <section className=" bg-black text-[#AFB0B6]">
       <nav className="fixed top-0 w-full bg-black border-b border-[#2F2F37] z-50">
         <div className=" flex justify-between items-center border-x border-[#2F2F37] pt-8  ml-4 mr-4  lg:ml-[50px] lg:mr-[50px]  pl-[18px] lg:pr-[18px]">
           <Link>
