@@ -23,11 +23,10 @@ const About = () => {
             </span>
           </p>
           <div className="pb-[20px]">
-            <Link>
-              <button className="text-[#FFFFFF] flex bg-[#1C1C21] text-[14px]  px-[20px] py-[14px] rounded-2xl border border-[#1C1C21] hover:bg-[#232323] ">
-                Know More <GoArrowRight className="mt-[5px] lg:mt-[4px] " />
-              </button>
-            </Link>
+            <button className="text-[#FFFFFF] flex bg-[#1C1C21] text-[14px]  px-[20px] py-[14px] rounded-2xl border border-[#1C1C21] hover:bg-[#232323] ">
+              <Link to="/about">Know More</Link>{" "}
+              <GoArrowRight className="mt-[5px] lg:mt-[4px] " />
+            </button>
           </div>
         </div>
         {/* down container */}
@@ -44,7 +43,7 @@ const About = () => {
                 <span className=" pr-[5px]">
                   {/* <img className=" lg:w-6 xl:w-8 " src={StarIcon} /> */}
                 </span>
-                <PiStarFourLight  className="w-6 h-14"/>
+                <PiStarFourLight className="w-6 h-14" />
                 Introduction
               </p>
               <p className="text-[14px] lg:text-[12px] xl:text-[14px] font-normal text-[#AFB0B6]  ">

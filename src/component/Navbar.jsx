@@ -48,7 +48,7 @@ const Navbar = () => {
           </div>
           <div className="hidden lg:block">
             <button className="bg-[#1C1C21] py-[10px] px-[15px] rounded-lg text-[14px] transition duration-300">
-              Contact Me
+              <Link to="/ContactPage"> Contact Me</Link>
             </button>
           </div>
         </div>
