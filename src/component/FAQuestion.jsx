@@ -15,7 +15,7 @@ const FAQuestion = () => {
   };
 
   return (
-    <section className="bg-black lg:max-h-[533px] lg:pt-[100px]  lg:pb-[150px]">
+    <section className="bg-black lg:max-h-[533px] pt-20 lg:pt-[100px]  lg:pb-[150px]">
       <div className="container mx-auto max-w-[1200px]  ">
         <p className="text-[#797C86] text-[14px] lg:text-[16px] font-semibold">
           FAQ's

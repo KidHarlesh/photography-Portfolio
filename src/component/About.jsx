@@ -1,12 +1,8 @@
 import React from "react";
 import { GoArrowRight } from "react-icons/go";
-// import StarIcon from "../assets/Star-icon.svg";
-import Facebook from "../assets/Facebook-Button.svg";
-import Twitter from "../assets/Twitter-button.svg";
-import Linkedin from "../assets/Linkedin-Button.svg";
+import StarIcons from "../assets/Star-icon.svg";
 import { Link } from "react-router-dom";
 import Image from "../assets/About-image.png";
-import { PiStarFourLight } from "react-icons/pi";
 import ButtonLeftAndRight from "./ButtonLeftAndRight";
 // import cv from "../assets/Alowoesin-cv.pdf";
 
@@ -44,7 +40,7 @@ const About = () => {
                 <span className=" pr-[5px]">
                   {/* <img className=" lg:w-6 xl:w-8 " src={StarIcon} /> */}
                 </span>
-                <PiStarFourLight className="w-6 h-14" />
+                <img src={StarIcons} />
                 Introduction
               </p>
               <p className="text-[14px] lg:text-[12px] xl:text-[14px] font-normal text-[#AFB0B6]  ">
@@ -63,6 +59,7 @@ const About = () => {
                 <span className="pr-[5px]">
                   {/* <img className=" lg:w-6 xl:w-8 " src={StarIcon} /> */}
                 </span>
+                <img src={StarIcons} />
                 Contact Information
               </p>
               {/* email container */}

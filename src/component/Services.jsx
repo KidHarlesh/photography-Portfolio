@@ -13,8 +13,8 @@ const Services = () => {
   return (
     <section className=" bg-black">
       <div className="container  ">
-        <div className="   border border-t-0 lg:border-0 border-[#1C1C21] ">
-          <div className="lg:flex justify-between items-center  lg:pb-[40px]">
+        <div className="   border border-t-0 lg:border-0 border-[#1C1C21] pb-10  lg:border-b ">
+          <div className="lg:flex justify-between items-center  ">
             <div className=" ">
               <p className="text-[14px]  lg:text-[16px]  font-semibold text-[#797C86] ">
                 SERVICES
@@ -45,7 +45,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className=" border-[#1C1C21] border lg:border-none  rounded-b-lg lg:grid lg:grid-cols-2 lg:gap-[40px] 2xl:items-center  ">
+        <div className=" border-[#1C1C21] border border-t-0 lg:border-none  rounded-b-lg lg:grid lg:grid-cols-2 lg:gap-[40px] 2xl:items-center  ">
           <div className="w-full pt-10 order-2 ">
             <img src={Picture} alt="" className="w-full lg:h-full  " />
           </div>
@@ -126,7 +126,7 @@ const Services = () => {
               </div>
             </div>
             <div className=" lg:flex  items-center  justify-between  xl:pt-[18px]  ">
-            <ButtonLeftAndRight/>
+              <ButtonLeftAndRight />
               <div className="pt-[20px] lg:pt-[0px]   px-[0px] lg:px-[16px] grid   lg:grid-cols-2  gap-5 lg:items-center lg:gap-4">
                 <Link>
                   <button className="text-[14px] lg:text-[12px] font-medium text-[#FFFFFF] bg-[#1C1C21] text-center px-[104px] lg:px-[25px] xl:px-[40px] py-[14px] lg:py-[12px] xl:py-[16px]  rounded-xl hover:bg-[#232323] ">
