@@ -1,6 +1,5 @@
 import React from "react";
 import { GoArrowRight } from "react-icons/go";
-import StarIcons from "../assets/Star-icon.svg";
 import { Link } from "react-router-dom";
 import Image from "../assets/About-image.png";
 import ButtonLeftAndRight from "./ButtonLeftAndRight";
@@ -40,7 +39,7 @@ const About = () => {
                 <span className=" pr-[5px]">
                   {/* <img className=" lg:w-6 xl:w-8 " src={StarIcon} /> */}
                 </span>
-                <img src={StarIcons} />
+                
                 Introduction
               </p>
               <p className="text-[14px] lg:text-[12px] xl:text-[14px] font-normal text-[#AFB0B6]  ">
@@ -59,7 +58,7 @@ const About = () => {
                 <span className="pr-[5px]">
                   {/* <img className=" lg:w-6 xl:w-8 " src={StarIcon} /> */}
                 </span>
-                <img src={StarIcons} />
+                
                 Contact Information
               </p>
               {/* email container */}
