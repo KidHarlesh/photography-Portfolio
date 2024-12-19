@@ -3,11 +3,12 @@ import { GoArrowRight } from "react-icons/go";
 import Rightclick from "../assets/Right-Button.svg";
 import Leftclick from "../assets/Left-Button.svg";
 import { Link } from "react-router-dom";
-import Facebook from "../assets/Facebook-Button.svg";
-import Twitter from "../assets/Twitter-button.svg";
-import Linkedin from "../assets/Linkedin-Button.svg";
+// import Facebook from "../assets/Facebook-Button.svg";
+// import Twitter from "../assets/Twitter-button.svg";
+// import Linkedin from "../assets/Linkedin-Button.svg";
 import Picture from "../assets/Service-image.png";
 import Button from "../assets/Blue-Button.svg";
+import ButtonLeftAndRight from "./ButtonLeftAndRight";
 const Services = () => {
   return (
     <section className=" bg-black">
@@ -125,26 +126,7 @@ const Services = () => {
               </div>
             </div>
             <div className=" lg:flex  items-center  justify-between  xl:pt-[18px]  ">
-              <div className=" border border-[#1C1C21] flex w-fit rounded-full   p-[8px]  xl:p-[13px]  gap-[6px] ">
-                <Link>
-                  <img
-                    className="w-10 lg:w-6 xl:w-8  hover:bg-[#1C1C21]  hover:text-[#bfbfbf] rounded-lg transition delay-150 duration-300 ease-in-out"
-                    src={Facebook}
-                  />
-                </Link>
-                <Link>
-                  <img
-                    className="w-10 lg:w-6 xl:w-8   hover:bg-[#1C1C21]  hover:text-[#bfbfbf] rounded-lg transition delay-150 duration-300 ease-in-out"
-                    src={Twitter}
-                  />
-                </Link>
-                <Link>
-                  <img
-                    className="w-10 lg:w-6 xl:w-8   hover:bg-[#1C1C21] hover:text-[#bfbfbf] rounded-lg transition delay-150 duration-300 ease-in-out"
-                    src={Linkedin}
-                  />
-                </Link>
-              </div>
+            <ButtonLeftAndRight/>
               <div className="pt-[20px] lg:pt-[0px]   px-[0px] lg:px-[16px] grid   lg:grid-cols-2  gap-5 lg:items-center lg:gap-4">
                 <Link>
                   <button className="text-[14px] lg:text-[12px] font-medium text-[#FFFFFF] bg-[#1C1C21] text-center px-[104px] lg:px-[25px] xl:px-[40px] py-[14px] lg:py-[12px] xl:py-[16px]  rounded-xl hover:bg-[#232323] ">

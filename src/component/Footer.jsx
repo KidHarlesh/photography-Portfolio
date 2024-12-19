@@ -7,6 +7,7 @@ import Facebook from "../assets/Facebook-Button.svg";
 import Twitter from "../assets/Twitter-button.svg";
 import Linkedin from "../assets/Linkedin-Button.svg";
 import laptop from "../assets/long-Contain.svg";
+import ButtonLeftAndRight from "./ButtonLeftAndRight";
 
 const Footer = () => {
   return (
@@ -135,29 +136,7 @@ const Footer = () => {
         </p>
 
         <div className="flex justify-center">
-          <div className="border border-[#1C1C21] flex w-fit rounded-full p-[8px] xl:p-[13px] gap-[6px] bg-black">
-            <Link>
-              <img
-                className="w-10 lg:w-6 xl:w-8 hover:bg-[#1C1C21] rounded-lg transition delay-150 duration-100 ease-in-out"
-                src={Facebook}
-                alt="Facebook"
-              />
-            </Link>
-            <Link>
-              <img
-                className="w-10 lg:w-6 xl:w-8 hover:bg-[#1C1C21] rounded-lg transition delay-150 duration-100 ease-in-out"
-                src={Twitter}
-                alt="Twitter"
-              />
-            </Link>
-            <Link>
-              <img
-                className="w-10 lg:w-6 xl:w-8 hover:bg-[#1C1C21] rounded-lg transition delay-150 duration-100 ease-in-out"
-                src={Linkedin}
-                alt="Linkedin"
-              />
-            </Link>
-          </div>
+          <ButtonLeftAndRight />
         </div>
       </div>
     </footer>

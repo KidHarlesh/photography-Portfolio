@@ -5,6 +5,7 @@ import Rightclick from "../assets/Right-Button.svg";
 import Leftclick from "../assets/Left-Button.svg";
 import { GoArrowRight } from "react-icons/go";
 import { testimonial } from "../constant/Data";
+import ButtonLeftAndRight from "./ButtonLeftAndRight";
 
 const Testimonialsection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -91,26 +92,7 @@ const Testimonialsection = () => {
                       {testimonial[currentIndex].paragraphTwo}
                     </p>
                   </div>
-                  <div className="border border-[#1C1C21] flex w-fit rounded-full p-[8px] gap-[6px] bg-black">
-                    <Link>
-                      <img
-                        className="w-10 lg:w-6 xl:w-8 hover:bg-[#1C1C21] hover:text-[#bfbfbf] rounded-lg transition delay-150 duration-100 ease-in-out"
-                        src={testimonial[currentIndex].image}
-                      />
-                    </Link>
-                    <Link>
-                      <img
-                        className="w-10 lg:w-6 xl:w-8 hover:bg-[#1C1C21] hover:text-[#bfbfbf] rounded-lg transition delay-150 duration-100 ease-in-out"
-                        src={testimonial[currentIndex].imageTwo}
-                      />
-                    </Link>
-                    <Link>
-                      <img
-                        className="w-10 lg:w-6 xl:w-8 hover:bg-[#1C1C21] hover:text-[#bfbfbf] rounded-lg transition delay-150 duration-100 ease-in-out"
-                        src={testimonial[currentIndex].imageThree}
-                      />
-                    </Link>
-                  </div>
+                  <ButtonLeftAndRight />
                 </div>
                 <div className="pb-5">
                   <img src={testimonial[currentIndex].imageFour} />
@@ -136,26 +118,7 @@ const Testimonialsection = () => {
                         {tech.paragraphTwo}
                       </p>
                     </div>
-                    <div className="border border-[#1C1C21] flex w-fit rounded-full p-[8px] gap-[6px] bg-black">
-                      <Link>
-                        <img
-                          className="w-10 lg:w-6 xl:w-8 hover:bg-[#1C1C21] hover:text-[#bfbfbf] rounded-lg transition delay-150 duration-100 ease-in-out"
-                          src={tech.image}
-                        />
-                      </Link>
-                      <Link>
-                        <img
-                          className="w-10 lg:w-6 xl:w-8 hover:bg-[#1C1C21] hover:text-[#bfbfbf] rounded-lg transition delay-150 duration-100 ease-in-out"
-                          src={tech.imageTwo}
-                        />
-                      </Link>
-                      <Link>
-                        <img
-                          className="w-10 lg:w-6 xl:w-8 hover:bg-[#1C1C21] hover:text-[#bfbfbf] rounded-lg transition delay-150 duration-100 ease-in-out"
-                          src={tech.imageThree}
-                        />
-                      </Link>
-                    </div>
+                    <ButtonLeftAndRight />
                   </div>
                   <div className="pb-5">
                     <img src={tech.imageFour} />
