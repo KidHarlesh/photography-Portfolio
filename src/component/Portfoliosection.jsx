@@ -19,13 +19,13 @@ const Portfoliosection = () => {
   };
 
   return (
-    <section className=" bg-black pt-[125px]">
-      <div className="container  pt-[20px] lg:pt-[100px] xl:pb-[150px]">
+    <section className=" bg-black pt-[125px] lg:pt-[100px]">
+      <div className="container  ">
         {/* Header Section */}
         <div className="border-b  border-[#1C1C21]">
           <div className="lg:flex justify-between items-center  lg:pb-[40px]">
             <div className="pb-[20px] lg:pb-0">
-              <p className="text-[14px]  lg:text-[16px] xl:text-[20px] font-semibold text-[#797C86]">
+              <p className="text-[14px]  lg:text-[16px]  font-semibold text-[#797C86]">
                 PORTFOLIO
               </p>
               <p className="text-[28px] lg:text-[30px] xl:text-[40px] font-semibold text-[#FFFFFF] pb-[20px] lg:pb-0">
@@ -115,26 +115,26 @@ const Portfoliosection = () => {
                   className="block mx-auto lg:mx-0 hover:scale-105 transition-transform duration-100"
                   alt={work.paragraph}
                 />
-                 <div className="flex justify-between pt-4 items-center">
-                <div>
-                  <p className="text-[16px] font-medium text-[#CACACE]">
-                    {work.paragraph}
-                  </p>
-                  <p className="text-[#797C86] text-[14px]">
-                    {work.paragraphtwo}
-                  </p>
-                </div>
+                <div className="flex justify-between pt-4 items-center">
+                  <div>
+                    <p className="text-[16px] font-medium text-[#CACACE]">
+                      {work.paragraph}
+                    </p>
+                    <p className="text-[#797C86] text-[14px]">
+                      {work.paragraphtwo}
+                    </p>
+                  </div>
 
-                <button className="text-[20px] lg:text-[14px] text-[#F2F2F3] flex items-center gap-[8px] font-light border-b border-[#1C1C21]">
-                  {work.button}
-                  <span>
-                    <img
-                      className="w-4 xl:w-3"
-                      src={work.imageIcon}
-                      alt="Icon"
-                    />
-                  </span>
-                </button>
+                  <button className="text-[20px] lg:text-[14px] text-[#F2F2F3] flex items-center gap-[8px] font-light border-b border-[#1C1C21]">
+                    {work.button}
+                    <span>
+                      <img
+                        className="w-4 xl:w-3"
+                        src={work.imageIcon}
+                        alt="Icon"
+                      />
+                    </span>
+                  </button>
                 </div>
               </div>
             ))}

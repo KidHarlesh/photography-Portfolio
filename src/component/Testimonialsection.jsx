@@ -1,6 +1,6 @@
 
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 import Rightclick from "../assets/Right-Button.svg";
 import Leftclick from "../assets/Left-Button.svg";
 import { GoArrowRight } from "react-icons/go";
@@ -24,7 +24,7 @@ const Testimonialsection = () => {
 
   return (
     <section className="bg-black">
-      <div className="container pt-[80px] pb-[80px]">
+      <div className="container pt-[80px]  pb-[80px]" id="testimonial">
         {/* Header Section */}
         <div>
           <div>
@@ -60,11 +60,16 @@ const Testimonialsection = () => {
                   </div>
                 </div>
                 <div className="pb-[20px] lg:pb-0">
-                  <Link>
-                    <button className="text-[14px] font-medium text-[#FFFFFF] bg-[#1C1C21] px-[20px] py-[14px] rounded-lg flex justify-between items-center gap-2">
-                      View All Testimonials <GoArrowRight />
-                    </button>
-                  </Link>
+                  <button className="text-[14px] font-medium text-[#FFFFFF] bg-[#1C1C21] px-[20px] py-[14px] rounded-lg flex justify-between items-center gap-2">
+                    <ScrollLink
+                      to="testimonial"
+                      smooth={true}
+                      duration={500}
+                    >
+                      View All Testimonials
+                    </ScrollLink>
+                    <GoArrowRight />
+                  </button>
                 </div>
               </div>
 

@@ -15,9 +15,11 @@ const FAQuestion = () => {
   };
 
   return (
-    <section className="bg-black">
-      <div className="container mx-auto max-w-[1200px] pt-20 px-4">
-        <p className="text-[#797C86] text-[14px] font-semibold">FAQ's</p>
+    <section className="bg-black lg:max-h-[533px] lg:pt-[100px]  lg:pb-[150px]">
+      <div className="container mx-auto max-w-[1200px]  ">
+        <p className="text-[#797C86] text-[14px] lg:text-[16px] font-semibold">
+          FAQ's
+        </p>
         <h1 className="text-[#FFFFFF] text-[28px] font-semibold pr-6 border-b border-[#2F2F37] pb-[20px]">
           Frequently Asked Questions
         </h1>

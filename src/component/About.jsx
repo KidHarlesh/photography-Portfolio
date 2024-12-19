@@ -14,7 +14,7 @@ import ButtonLeftAndRight from "./ButtonLeftAndRight";
 const About = () => {
   return (
     <section className="  bg-black">
-      <div className=" container pt-[80px] lg:pb-[100px]">
+      <div className=" container pt-[80px] lg:pt-[124px] lg:pb-[150px]">
         {/* up contianer */}
         <div className=" border-b-2 border-[#1C1C21]  lg:flex items-center justify-between ">
           <p className="text-[14px] lg:text-[16px] font-semibold text-[#797C86] pb-[20px]">

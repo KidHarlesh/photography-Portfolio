@@ -16,7 +16,7 @@ const Services = () => {
         <div className="   border border-t-0 lg:border-0 border-[#1C1C21] ">
           <div className="lg:flex justify-between items-center  lg:pb-[40px]">
             <div className=" ">
-              <p className="text-[14px]  lg:text-[16px] xl:text-[20px] font-semibold text-[#797C86] ">
+              <p className="text-[14px]  lg:text-[16px]  font-semibold text-[#797C86] ">
                 SERVICES
               </p>
               <p className="text-[28px] lg:text-[30px] xl:text-[40px] font-semibold text-[#FFFFFF]  lg:pb-0 ">
