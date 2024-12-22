@@ -134,3 +134,36 @@ export const AboutCard = [
     paragraph: "Client Retention Rate",
   },
 ];
+
+export const testimonialCard = [
+  {
+    heading: "YEAR - 2005",
+    paragraph:
+      "In 2005, Damien acquired her first camera, igniting her passion for photography. She started experimenting with landscapes and candid shots, marking the beginning of her visual storytelling journey.",
+  },
+  {
+    heading: "YEAR - 2005",
+    paragraph:
+      "In 2005, Damien acquired her first camera, igniting her passion for photography. She started experimenting with landscapes and candid shots, marking the beginning of her visual storytelling journey.",
+  },
+  {
+    heading: "YEAR - 2005",
+    paragraph:
+      "In 2005, Damien acquired her first camera, igniting her passion for photography. She started experimenting with landscapes and candid shots, marking the beginning of her visual storytelling journey.",
+  },
+  {
+    heading: "YEAR - 2005",
+    paragraph:
+      "In 2005, Damien acquired her first camera, igniting her passion for photography. She started experimenting with landscapes and candid shots, marking the beginning of her visual storytelling journey.",
+  },
+  {
+    heading: "YEAR - 2005",
+    paragraph:
+      "In 2005, Damien acquired her first camera, igniting her passion for photography. She started experimenting with landscapes and candid shots, marking the beginning of her visual storytelling journey.",
+  },
+  {
+    heading: "YEAR - 2005",
+    paragraph:
+      "In 2005, Damien acquired her first camera, igniting her passion for photography. She started experimenting with landscapes and candid shots, marking the beginning of her visual storytelling journey.",
+  },
+];

@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "../assets/ServicePageImg.png";
-import { AboutCard } from "../constant/Data";
+import { AboutCard, testimonialCard } from "../constant/Data";
 const AboutSection = () => {
   return (
     <section className='"bg-black pt-[150px] lg:hidden'>
@@ -31,7 +31,7 @@ const AboutSection = () => {
             ))}
           </div>
         </div>
-        <div className="py-[40px]">
+        <div className="py-[40px] border-b border-[#1C1C21] ">
           <h1 className="text-[#797C86] font-semibold text-[28px] pb-5 ">
             MY BIOGRAPHY
           </h1>
@@ -51,6 +51,23 @@ const AboutSection = () => {
             With each click of her camera, she weaves stories that transcend
             time and space.
           </p>
+        </div>
+        <div className="pt-20 border-b border-[#1C1C21] ">
+          <p className="text-[14px] font-semibold text-[#797C86]">JOURNEY</p>
+          <h1 className="text-[28px] font-semibold text-[#FFFFFF] pb-5">
+            DAMIEN'S JOURNEY - A TIMELINE
+          </h1>
+        </div>
+        <div className="pt-[40px]  ">
+          {testimonialCard.slice(0,6).map((card, index) => (
+            <div key={index} className=" bg-testimonial p-6 mb-5">
+              <h1 className="text-[#797C86] font-semibold text-[24px] pb-[10px]">
+                {" "}
+                {card.heading}
+              </h1>
+              <p className="text-[#797C86]">{card.paragraph}</p>
+            </div>
+          ))}
         </div>
       </div>
     </section>
