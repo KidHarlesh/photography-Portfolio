@@ -108,7 +108,7 @@ const Testimonialsection = () => {
               </div>
             </div>
             {/* For Desktop: Show three testimonials */}
-            <div className="hidden lg:flex flex-row gap-5">
+            <div className="hidden lg:flex gap-5">
               {testimonial.slice(0, 3).map((tech, index) => (
                 <div
                   className="flex-1 bg-cover p-[24px] mb-10 bg-testimonial"

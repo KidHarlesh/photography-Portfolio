@@ -67,7 +67,6 @@ export const testimonial = [
   },
 ];
 
-
 export const dropDown = [
   {
     heading: "WHAT TYPE OF PHOTOGRAPHY DO YOU SPECIALIZE IN?",
@@ -80,23 +79,18 @@ export const dropDown = [
   },
   {
     heading: "WHAT EQUIPMENT DO YOU USE FOR YOUR PHOTOGRAPHY? ",
-    paragraph:
-      "NO ANSWER YET",
+    paragraph: "NO ANSWER YET",
   },
   {
     heading: "CAN I REQUEST A SPECIFIC LOCATION FOR A?",
-    paragraph:
-      "NO ANSWER YET",
+    paragraph: "NO ANSWER YET",
   },
-
 ];
-  
 
 export const rightDropdown = [
   {
     heading: "WHAT IS YOUR EDITING PROCESS LIKE?",
-    paragraph:
-      "NO ANSWER YET ",
+    paragraph: "NO ANSWER YET ",
   },
   {
     heading: "ARE DIGITAL FILES INCLUDED IN YOUR PHOTOGRAPHY PACKAGES ?",
@@ -114,3 +108,29 @@ export const rightDropdown = [
   },
 ];
 
+export const AboutCard = [
+  {
+    number: "15+",
+    paragraph: "Years in Business",
+  },
+  {
+    number: "500+",
+    paragraph: "Happy Client",
+  },
+  {
+    number: "10+",
+    paragraph: "Photography award",
+  },
+  {
+    number: "05+",
+    paragraph: "International shoots",
+  },
+  {
+    number: "10000+",
+    paragraph: "Social media Followers",
+  },
+  {
+    number: "90%",
+    paragraph: "Client Retention Rate",
+  },
+];

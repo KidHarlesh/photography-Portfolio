@@ -1,9 +1,12 @@
 import React from 'react'
+import Image from "../assets/ServicePageImg.png";
 
 const MobileContentService = () => {
   return (
-    <div>MobileContentService</div>
-  )
+    <section className='"bg-black pt-[150px] lg:hidden '>
+    
+    </section>
+  );
 }
 
 export default MobileContentService
