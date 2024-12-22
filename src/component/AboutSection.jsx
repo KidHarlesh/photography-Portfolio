@@ -19,7 +19,7 @@ const AboutSection = () => {
             {AboutCard.slice(0, 6).map((About, index) => (
               <div
                 key={index}
-                className=" border border-[#1C1C21] m-w-auto w-[179px] h-[99px] flex flex-col justify-center  rounded-lg"
+                className=" border border-[#1C1C21] m-w-auto w-[162px] h-[99px] flex flex-col justify-center  rounded-lg"
               >
                 <p className=" text-[28px] text-center text-[#E4E4E6] font-semibold">
                   {About.number}
