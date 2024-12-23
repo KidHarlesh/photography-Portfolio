@@ -60,7 +60,7 @@ const AboutSection = () => {
         </div>
         <div className="pt-[40px]  ">
           {testimonialCard.slice(0,6).map((card, index) => (
-            <div key={index} className=" bg-testimonial p-6 mb-5">
+            <div key={index} className=" bg-testimonial p-6 mb-5 rounded-xl">
               <h1 className="text-[#797C86] font-semibold text-[24px] pb-[10px]">
                 {" "}
                 {card.heading}
