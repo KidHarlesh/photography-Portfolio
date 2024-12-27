@@ -61,11 +61,7 @@ const Testimonialsection = () => {
                 </div>
                 <div className="pb-[20px] lg:pb-0">
                   <button className="text-[14px] font-medium text-[#FFFFFF] bg-[#1C1C21] px-[20px] py-[14px] rounded-lg flex justify-between items-center gap-2">
-                    <ScrollLink
-                      to="testimonial"
-                      smooth={true}
-                      duration={500}
-                    >
+                    <ScrollLink to="testimonial" smooth={true} duration={500}>
                       View All Testimonials
                     </ScrollLink>
                     <GoArrowRight />
@@ -87,7 +83,7 @@ const Testimonialsection = () => {
           <div className="flex flex-col lg:flex-row gap-5 justify-between">
             {/* For Mobile: Show one testimonial */}
             <div className="lg:hidden">
-              <div className="bg-cover p-[24px] mb-10 bg-testimonial">
+              <div className="bg-cover p-[24px] mb-10 bg-testimonial bg-[#0E0E10]">
                 <div className="flex justify-between items-center pb-5">
                   <div>
                     <p className="text-[16px] text-[#E4E4E6] font-medium">
@@ -111,7 +107,7 @@ const Testimonialsection = () => {
             <div className="hidden lg:flex gap-5">
               {testimonial.slice(0, 3).map((tech, index) => (
                 <div
-                  className="flex-1 bg-cover p-[24px] mb-10 bg-testimonial"
+                  className="flex-1 bg-cover p-[24px] mb-10 bg-[#0E0E10] bg-testimonial"
                   key={index}
                 >
                   <div className="flex justify-between items-center pb-5">

@@ -19,7 +19,7 @@ const AboutSection = () => {
             {AboutCard.slice(0, 6).map((About, index) => (
               <div
                 key={index}
-                className=" border border-[#1C1C21] m-w-auto w-[162px] h-[99px] flex flex-col justify-center  rounded-lg"
+                className=" border border-[#1C1C21] m-w-auto w-[162px] h-[99px] flex flex-col justify-center  rounded-lg bg-[#0E0E10]"
               >
                 <p className=" text-[28px] text-center text-[#E4E4E6] font-semibold">
                   {About.number}
@@ -59,8 +59,11 @@ const AboutSection = () => {
           </h1>
         </div>
         <div className="pt-[40px]  ">
-          {testimonialCard.slice(0,6).map((card, index) => (
-            <div key={index} className=" bg-testimonial p-6 mb-5 rounded-xl">
+          {testimonialCard.slice(0, 6).map((card, index) => (
+            <div
+              key={index}
+              className=" bg-testimonial p-6 mb-5 rounded-xl bg-[#0E0E10]"
+            >
               <h1 className="text-[#797C86] font-semibold text-[24px] pb-[10px]">
                 {" "}
                 {card.heading}
