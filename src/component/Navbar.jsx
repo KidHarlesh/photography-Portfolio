@@ -19,22 +19,22 @@ const Navbar = () => {
             <img srcSet={Mobilelogo} alt="Logo" />
           </Link>
           <ul className="hidden lg:flex justify-between text-[14px] font-normal items-center">
-            <li className="py-[20px] border-[#2F2F37] border border-e-0 border-b-0 rounded-tl-lg transition duration-300">
+            <li className="py-[20px] hover:bg-[#1c1c21] border-[#2F2F37] border border-e-0 border-b-0 rounded-tl-lg transition duration-300">
               <NavLink className="px-[29px] py-[21px]" to="/">
                 Home
               </NavLink>
             </li>
-            <li className="py-[20px] border-[#2F2F37] border border-e-0 border-b-0 transition duration-300">
+            <li className="py-[20px] hover:bg-[#1c1c21] border-[#2F2F37] border border-e-0 border-b-0 transition duration-300">
               <NavLink className="px-[36px] py-[20px]" to="/about">
                 About Me
               </NavLink>
             </li>
-            <li className="py-[20px] border-[#2F2F37] border border-e-0 border-b-0 transition duration-300">
+            <li className="py-[20px] hover:bg-[#1c1c21] border-[#2F2F37] border border-e-0 border-b-0 transition duration-300">
               <NavLink className="px-[36px] py-[20px]" to="/portfolio">
                 Portfolio
               </NavLink>
             </li>
-            <li className="py-[20px] border-[#2F2F37] border border-b-0 rounded-tr-lg transition duration-300">
+            <li className="py-[20px] hover:bg-[#1c1c21] border-[#2F2F37] border border-b-0 rounded-tr-lg transition duration-300">
               <NavLink className="px-[36px] py-[20px]" to="/service">
                 Service
               </NavLink>
