@@ -59,10 +59,10 @@ const Footer = () => {
               <ul className=" text-[14px]  ">
                 <h1 className="text-[#797C86] font-semibold ">HOME</h1>
                 <li className="border-b border-[#2F2F37]  pb-[4px] pt-[12px]">
-                  ABOUTME
+                  <Link to="/about">ABOUTME</Link>
                 </li>
                 <li className="border-b border-[#2F2F37] pb-[4px] pt-[9px]">
-                  MYWORKS
+                  <Link to="/portfolio">MYWORKS</Link>
                 </li>
                 <li className="border-b border-[#2F2F37] pb-[4px] pt-[9px]">
                   TESTIMONIALS
@@ -88,16 +88,16 @@ const Footer = () => {
               <ul className=" text-[14px]  ">
                 <h1 className="text-[#797C86] ">PORTFOLIO</h1>
                 <li className="border-b border-[#2F2F37] pb-[4px]  pt-[6px]">
-                  EVENTS
+                  <Link>EVENTS</Link>
                 </li>
                 <li className="border-b border-[#2F2F37] pb-[4px] pt-[6px]">
-                  PORTRAIT
+                  <Link>PORTRAIT</Link>
                 </li>
                 <li className="border-b border-[#2F2F37] pb-[4px] pt-[6px]">
-                  BRANDING
+                  <Link>BRANDING</Link>
                 </li>
                 <li className="border-b border-[#2F2F37] pb-[4px] pt-[6px]">
-                  COMMERCIALE
+                  <Link>COMMERCIALE</Link>
                 </li>
                 <li className="border-b border-[#2F2F37] pb-[4px] pt-[6px]">
                   WEDDING
