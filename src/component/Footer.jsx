@@ -65,13 +65,13 @@ const Footer = () => {
                   <Link to="/portfolio">MYWORKS</Link>
                 </li>
                 <li className="border-b border-[#2F2F37] pb-[4px] pt-[9px]">
-                  TESTIMONIALS
+                  <Link>TESTIMONIALS</Link>
                 </li>
               </ul>
               <ul className=" text-[14px]  ">
                 <h1 className="text-[#797C86]  ">CLIENTS</h1>
                 <li className="border-b border-[#2F2F37] pb-[4px] pt-[6px]">
-                  KLOVESTO
+                  <Link>KLOVESTO</Link>
                 </li>
                 <li className="border-b border-[#2F2F37] pb-[4px] pt-[6px]">
                   NUKEWAY

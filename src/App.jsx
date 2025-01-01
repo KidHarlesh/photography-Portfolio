@@ -6,6 +6,7 @@ import Services from "./pages/Service"
 import NotFound from "./pages/NotFound";
 import ContactPage from "./pages/ContactPage";
 import ScrollToTop from "./component/ScrollToTop";
+
 function App() {
   return (
     <div>
@@ -17,6 +18,7 @@ function App() {
         <Route path="/service" element={<Services />} />
         <Route path="/ContactPage" element={<ContactPage />} />
         <Route path="*" element={<NotFound />} />
+        
       </Routes>
     </div>
   );

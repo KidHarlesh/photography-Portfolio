@@ -23,7 +23,7 @@ const Testimonialsection = () => {
   };
 
   return (
-    <section className="bg-black">
+    <section className="bg-black " >
       <div className="container pt-[80px]  pb-[80px]" id="testimonial">
         {/* Header Section */}
         <div>
