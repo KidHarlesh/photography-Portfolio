@@ -3,11 +3,9 @@ import Sidelogo from "../assets/Damien-footLogo.svg";
 import long from "../assets/footer-longimage.svg";
 import Button from "../assets/Blue-Button.svg";
 import { Link } from "react-router-dom";
-import Facebook from "../assets/Facebook-Button.svg";
-import Twitter from "../assets/Twitter-button.svg";
-import Linkedin from "../assets/Linkedin-Button.svg";
 import laptop from "../assets/long-Contain.svg";
 import ButtonLeftAndRight from "./ButtonLeftAndRight";
+import sideIcon from "../assets/eIcon.svg";
 
 const Footer = () => {
   return (
@@ -31,6 +29,7 @@ const Footer = () => {
         <img className="w-full h-18" src={long} alt="Footer Long" />
       </div>
 
+      <img src={sideIcon} alt="" />
       {/* links conatiner */}
       <div className="container flex flex-col lg:flex-row justify-center">
         {/* TOP CONTAINER */}
