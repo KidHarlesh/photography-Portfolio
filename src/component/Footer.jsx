@@ -74,13 +74,13 @@ const Footer = () => {
                   <Link>KLOVESTO</Link>
                 </li>
                 <li className="border-b border-[#2F2F37] pb-[4px] pt-[6px]">
-                  NUKEWAY
+                  <Link>NUKEWAY</Link>
                 </li>
                 <li className="border-b border-[#2F2F37] pb-[4px] pt-[6px]">
-                  CLOVEN'S
+                  <Link>CLOVEN'S</Link>
                 </li>
                 <li className="border-b border-[#2F2F37] pb-[4px] pt-[6px]">
-                  MENVOL
+                  <Link>MENVOL</Link>
                 </li>
               </ul>
             </div>
@@ -100,7 +100,7 @@ const Footer = () => {
                   <Link>COMMERCIALE</Link>
                 </li>
                 <li className="border-b border-[#2F2F37] pb-[4px] pt-[6px]">
-                  WEDDING
+                  <Link>WEDDING</Link>
                 </li>
               </ul>
               <ul className=" text-[14px]  ">
