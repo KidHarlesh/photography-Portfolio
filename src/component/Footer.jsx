@@ -104,16 +104,17 @@ const Footer = () => {
                 </li>
               </ul>
               <ul className=" text-[14px]  ">
-                <h1 className="text-[#797C86] ">SERVICES</h1>
+                <h1 className="text-[#797C86] ">
+                  <Link>SERVICES</Link>
+                </h1>
                 <li className="border-b border-[#2F2F37] pb-[4px] pt-[6px]">
-                  PORTRATS
+                  <Link>PORTRATS</Link>
                 </li>
                 <li className="border-b border-[#2F2F37] pb-[4px] pt-[6px]">
-                  EVENTS
+                  <Link>EVENTS</Link>
                 </li>
                 <li className="border-b border-[#2F2F37] pb-[4px] pt-[6px]">
-                  {" "}
-                  OMMERCIAL
+                  <Link>COMMERCIAL</Link>
                 </li>
               </ul>
             </div>
