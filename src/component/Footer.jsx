@@ -29,11 +29,15 @@ const Footer = () => {
         <img className="w-full h-18" src={long} alt="Footer Long" />
       </div>
 
-      <img src={sideIcon} alt="" />
       {/* links conatiner */}
-      <div className="container flex flex-col lg:flex-row justify-center">
+      <div className="container flex flex-col lg:flex-row justify-center relative ">
+        <div className="absolute hidden lg:block
+        ">
+          <img src={sideIcon} alt="" />
+        </div>
+
         {/* TOP CONTAINER */}
-        <div className="px-5 py-10  xl:px-[60px] xl:py-[80px] border-[#2F2F37] border ">
+        <div className="px-5 py-10  xl:px-[60px] xl:py-[80px] border-[#2F2F37] border z-[2]">
           <p className="text-[14px] font-semibold text-[#797C86] pb-5">
             A MORE MEANINGFULL HOME FOR PHOTOGRAPHY
           </p>
