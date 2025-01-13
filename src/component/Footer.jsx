@@ -5,11 +5,15 @@ import Button from "../assets/Blue-Button.svg";
 import { Link } from "react-router-dom";
 import laptop from "../assets/long-Contain.svg";
 import ButtonLeftAndRight from "./ButtonLeftAndRight";
-import sideIcon from "../assets/eIcon.svg";
+
+import RightLeftSideIcon from "./RightLeftSideIcon";
+import FooterNav from "./FooterNav";
+import AfterXlScreenFooter from "./AfterXlScreenFooter";
+import ForXlAbstractImage from "./ForXlAbstractImage";
 
 const Footer = () => {
   return (
-    <footer className="bg-black pt-20">
+    <footer className="bg-black pt-20 relative ">
       <div className="container mx-auto">
         {/* Damien Logo */}
         <div className="flex justify-end   pb-5 lg:pb-16">
@@ -30,14 +34,12 @@ const Footer = () => {
       </div>
 
       {/* links conatiner */}
-      <div className="container flex flex-col lg:flex-row justify-center relative ">
-        <div className="absolute hidden lg:block
-        ">
-          <img src={sideIcon} alt="" />
-        </div>
+      <div className="container flex flex-col lg:flex-row justify-center  relative   ">
+        <RightLeftSideIcon />
 
+        <AfterXlScreenFooter />
         {/* TOP CONTAINER */}
-        <div className="px-5 py-10  xl:px-[60px] xl:py-[80px] border-[#2F2F37] border z-[2]">
+        <div className="px-5 py-10  xl:px-[60px] xl:py-[80px] border-[#2F2F37] border z-10 ">
           <p className="text-[14px] font-semibold text-[#797C86] pb-5">
             A MORE MEANINGFULL HOME FOR PHOTOGRAPHY
           </p>
@@ -56,73 +58,7 @@ const Footer = () => {
           </p>
         </div>
         {/* downcontainer */}
-        <div className="border-[#2F2F37] border pl-10 lg:pl-0   py-[40px] xl:py-[80px] max-w-[100%]  ">
-          <nav className="flex flex-wrap  text-[#F2F2F3] gap-10 lg:gap-[20px] xl:gap-[50px] lg:mx-10 xl:mx-20  ">
-            <div className="flex flex-wrap gap-[65px] lg:gap-[20px] xl:gap-[50px] ">
-              <ul className=" text-[14px]  ">
-                <h1 className="text-[#797C86] font-semibold ">HOME</h1>
-                <li className="border-b border-[#2F2F37]  pb-[4px] pt-[12px]">
-                  <Link to="/about">ABOUTME</Link>
-                </li>
-                <li className="border-b border-[#2F2F37] pb-[4px] pt-[9px]">
-                  <Link to="/portfolio">MYWORKS</Link>
-                </li>
-                <li className="border-b border-[#2F2F37] pb-[4px] pt-[9px]">
-                  <Link>TESTIMONIALS</Link>
-                </li>
-              </ul>
-              <ul className=" text-[14px]  ">
-                <h1 className="text-[#797C86]  ">CLIENTS</h1>
-                <li className="border-b border-[#2F2F37] pb-[4px] pt-[6px]">
-                  <Link>KLOVESTO</Link>
-                </li>
-                <li className="border-b border-[#2F2F37] pb-[4px] pt-[6px]">
-                  <Link>NUKEWAY</Link>
-                </li>
-                <li className="border-b border-[#2F2F37] pb-[4px] pt-[6px]">
-                  <Link>CLOVEN'S</Link>
-                </li>
-                <li className="border-b border-[#2F2F37] pb-[4px] pt-[6px]">
-                  <Link>MENVOL</Link>
-                </li>
-              </ul>
-            </div>
-            <div className="flex flex-wrap  gap-[50px] lg:gap-[20px] xl:gap-[50px] ">
-              <ul className=" text-[14px]  ">
-                <h1 className="text-[#797C86] ">PORTFOLIO</h1>
-                <li className="border-b border-[#2F2F37] pb-[4px]  pt-[6px]">
-                  <Link>EVENTS</Link>
-                </li>
-                <li className="border-b border-[#2F2F37] pb-[4px] pt-[6px]">
-                  <Link>PORTRAIT</Link>
-                </li>
-                <li className="border-b border-[#2F2F37] pb-[4px] pt-[6px]">
-                  <Link>BRANDING</Link>
-                </li>
-                <li className="border-b border-[#2F2F37] pb-[4px] pt-[6px]">
-                  <Link>COMMERCIALE</Link>
-                </li>
-                <li className="border-b border-[#2F2F37] pb-[4px] pt-[6px]">
-                  <Link>WEDDING</Link>
-                </li>
-              </ul>
-              <ul className=" text-[14px]  ">
-                <h1 className="text-[#797C86] ">
-                  <Link>SERVICES</Link>
-                </h1>
-                <li className="border-b border-[#2F2F37] pb-[4px] pt-[6px]">
-                  <Link>PORTRATS</Link>
-                </li>
-                <li className="border-b border-[#2F2F37] pb-[4px] pt-[6px]">
-                  <Link>EVENTS</Link>
-                </li>
-                <li className="border-b border-[#2F2F37] pb-[4px] pt-[6px]">
-                  <Link>COMMERCIAL</Link>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
+        <FooterNav />
       </div>
 
       {/* Footer Bottom */}
@@ -143,6 +79,7 @@ const Footer = () => {
           <ButtonLeftAndRight />
         </div>
       </div>
+      <ForXlAbstractImage />
     </footer>
   );
 };
