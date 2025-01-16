@@ -10,16 +10,22 @@ const DesktopPortfolio = () => {
           className="block mx-auto w-[100%]"
         />
         <div>
-          <h3>PORTFOLIO</h3>
-          <h1>Visual Poetry in Pixels</h1>
-          <p>
+          <h3 className="text-[#797C86] text-[14px] font-semibold">
+            PORTFOLIO
+          </h3>
+          <h1 className="text-[#FFFFFF] text-[28px] font-semibold">
+            Visual Poetry in Pixels
+          </h1>
+          <p className="text-[#797C86] text-[14px]">
             Step into a visual journey that encapsulates the essence of my lens.
             Each photograph in this portfolio is a narrative, a frozen moment in
             time, and a testament to the artistry and passion poured into every
             frame. Explore the diverse tapestry of stories I've had the
             privilege to capture and witness the world through my lens.
+          </p> <br />
+          <p className="text-[14px] text-[#797C86] font-medium">
+            BRANDS I HAVE WORKED WITH
           </p>
-          <p>BRANDS I HAVE WORKED WITH</p>
         </div>
       </div>
     </section>
