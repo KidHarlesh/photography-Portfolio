@@ -1,35 +1,47 @@
-import React from 'react'
-import PortImage from "../assets/PortfolioImagee.png";
+import React from "react";
+import Star from "../assets/Logo.png";
+  
+import Image from "../assets/PortfoolioImage.png";
 const DesktopPortfolio = () => {
   return (
     <section className=" bg-black">
       <div className="container ">
-        <img
-          src={PortImage}
-          alt="Picture of a girl resting to the wall "
-          className="block mx-auto w-[100%]"
-        />
-        <div>
-          <h3 className="text-[#797C86] text-[14px] font-semibold">
-            PORTFOLIO
-          </h3>
-          <h1 className="text-[#FFFFFF] text-[28px] font-semibold">
-            Visual Poetry in Pixels
-          </h1>
-          <p className="text-[#797C86] text-[14px]">
-            Step into a visual journey that encapsulates the essence of my lens.
-            Each photograph in this portfolio is a narrative, a frozen moment in
-            time, and a testament to the artistry and passion poured into every
-            frame. Explore the diverse tapestry of stories I've had the
-            privilege to capture and witness the world through my lens.
-          </p> <br />
-          <p className="text-[14px] text-[#797C86] font-medium">
-            BRANDS I HAVE WORKED WITH
-          </p>
+        <div className="relative w-auto h-max">
+          <div className="pt-10">
+            <h4 className="text-[16px] xl:text-[20px]  text-[#797C86] font-semibold ">
+              PORTFOLIO
+            </h4>
+            <h1 className="  text-[36px] xl:text-[42px] 2xl:text-[60px]  text-[#E4E4E6] font-semibold ">
+              VISUAL POETRY IN PIXELS
+            </h1>
+            <p className=" text-[#797C86] w-[67%] text-[14px] font-normal">
+              Step into a visual journey that encapsulates the essence of my
+              lens. Each photograph in this portfolio is a narrative, a frozen
+              moment in time, and a testament to the artistry and passion poured
+              into every frame. Explore the diverse tapestry of stories I've had
+              the privilege to capture and witness the world through my lens.
+            </p>
+          </div>
+
+          <div>
+            <img src={Image} alt="" className="absolute top-[10px]  w-[100%]" />
+          </div>
+          <div className="pt-[25%] xl:pt-[32%]  flex items-center justify-between">
+            <img
+              src={Star}
+              alt=""
+              className="w-[90px] xl:w-[100px] 2xl:W-[120px]"
+            />
+            <div className="pl-[75%]">
+              <p className="text-[#797C86] text-[14px]  xl:text-[16px]">
+                SCROLL DOWN TO SEE THE WORKS
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
   );
-}
+};
 
-export default DesktopPortfolio
+export default DesktopPortfolio;

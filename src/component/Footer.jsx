@@ -39,7 +39,7 @@ const Footer = () => {
 
         <AfterXlScreenFooter />
         {/* TOP CONTAINER */}
-        <div className="px-5 py-10  xl:px-[60px] xl:py-[80px] border-[#2F2F37] border z-10 ">
+        <div className="px-5 py-10  xl:px-[60px] xl:py-[80px] border-[#2F2F37] border z-[20px] ">
           <p className="text-[14px] font-semibold text-[#797C86] pb-5">
             A MORE MEANINGFULL HOME FOR PHOTOGRAPHY
           </p>

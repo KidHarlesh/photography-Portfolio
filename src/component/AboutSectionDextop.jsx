@@ -35,7 +35,7 @@ const AboutSectionDextop = () => {
             <img src={Image} alt="" className="absolute top-[10px]  w-[100%]" />
           </div>
           <div className="pt-[32%] xl:pt-[33%]  flex items-center justify-between">
-            <img src={Star} alt="" className="w-[100px] xl:w-[130px]" />
+            <img src={Star} alt="" className="w-[90px] xl:w-[100px]" />
             <div className="pl-[75%]">
               <p className="text-[#797C86] text-[14px]  xl:text-[16px]">
                 SCROLL DOWN TO SEE MY JOURNEY
