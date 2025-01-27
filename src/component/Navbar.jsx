@@ -89,6 +89,11 @@ const Navbar = () => {
               Service
             </Link>
           </li>
+          <li className="text-xl px-[15px] py-[20px] font-normal text-tertiary leading-[24px] border-b border-gray">
+            <Link to="/ContactPage" onClick={handleNav}>
+              Contact Me
+            </Link>
+          </li>
         </ul>
       </div>
     </section>
