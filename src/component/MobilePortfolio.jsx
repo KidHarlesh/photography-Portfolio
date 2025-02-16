@@ -1,6 +1,6 @@
 import React from "react";
 import PortImage from "../assets/PortfolioImagee.png";
-import LomgImages from "../assets/LongImagePort.png";
+import LongImages from "../assets/LongImagePort.png";
 
 const MobilePortfolio = () => {
   return (
@@ -31,7 +31,7 @@ const MobilePortfolio = () => {
           </p>
         </div>
       </div>
-      <img src={LomgImages} alt=" " className="w-[100%]" />
+      <img src={LongImages} alt=" " className="w-[100%]" />
     </section>
   );
 };

@@ -6,6 +6,7 @@ import Facebook from "../assets/Facebook-Button.svg";
 import Twitter from "../assets/Twitter-button.svg";
 import Linkedin from "../assets/Linkedin-Button.svg";
 import Rating from "../assets/Star-Container.svg";
+import BlackBlue from "../assets/PotraitImageOne.png";
 export const portfolioWork = [
   {
     image: African,
@@ -165,5 +166,32 @@ export const testimonialCard = [
     heading: "YEAR - 2005",
     paragraph:
       "In 2005, Damien acquired her first camera, igniting her passion for photography. She started experimenting with landscapes and candid shots, marking the beginning of her visual storytelling journey.",
+  },
+];
+
+
+export const portfolioPortrait = [
+  {
+    image: BlackBlue,
+    paragraph: "Faces of Resilience",
+    paragraphtwo: "March 2022",
+    button: "VIEW PROJECT",
+    imageIcon: Direction,
+  },
+  {
+    image: whitewoman,
+    paragraph: " A Wedding Tale",
+    paragraphtwo: "January 2020",
+    button: "VIEW PROJECT",
+    imageIcon: Direction,
+    class: "hidden lg:block",
+  },
+  {
+    image: Carton,
+    paragraph: "Product Elegance",
+    paragraphtwo: "January 2020",
+    button: "VIEW PROJECT",
+    imageIcon: Direction,
+    class: "hidden lg:block",
   },
 ];

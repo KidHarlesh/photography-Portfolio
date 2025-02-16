@@ -3,9 +3,9 @@ import Navbar from "../component/Navbar";
 import Footer from "../component/Footer";
 import Testimonialsection from "../component/Testimonialsection";
 import FAQuestion from "../component/FAQuestion";
-
 import MobilePortfolio from "../component/MobilePortfolio";
 import DesktopPortfolio from "../component/DesktopPortfolio";
+import PortfolioSection from "../component/Portfoliosection";
 
 const Porfolio = () => {
   return (
@@ -17,7 +17,7 @@ const Porfolio = () => {
       <div className="hidden pt-[9rem] lg:block">
         <DesktopPortfolio />
       </div>
-
+      <PortfolioSection/>
       <FAQuestion />
       <Testimonialsection />
       <Footer />

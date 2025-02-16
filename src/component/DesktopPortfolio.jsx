@@ -1,7 +1,7 @@
 import React from "react";
 import Star from "../assets/Logo.png";
-  
 import Image from "../assets/PortfoolioImage.png";
+import LongImages from "../assets/CompanyWorkimage.png";
 const DesktopPortfolio = () => {
   return (
     <section className=" bg-black">
@@ -26,20 +26,24 @@ const DesktopPortfolio = () => {
           <div>
             <img src={Image} alt="" className="absolute top-[10px]  w-[100%]" />
           </div>
-          <div className="pt-[25%] xl:pt-[32%]  flex items-center justify-between">
+          <div className="pt-[25%] xl:pt-[32%]  flex items-center justify-between pb-[40px]">
             <img
               src={Star}
               alt=""
               className="w-[90px] xl:w-[100px] 2xl:W-[120px]"
             />
-            <div className="pl-[75%]">
+            <div className="pl-[75%] ">
               <p className="text-[#797C86] text-[14px]  xl:text-[16px]">
                 SCROLL DOWN TO SEE THE WORKS
               </p>
             </div>
           </div>
+          <p className="text-[14px] text-[#797C86] font-medium text-center pb-[14px]">
+            BRANDS I HAVE WORKED WITH
+          </p>
         </div>
       </div>
+      <img src={LongImages} alt=" " className="" />
     </section>
   );
 };
