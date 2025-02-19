@@ -6,6 +6,8 @@ import FAQuestion from "../component/FAQuestion";
 import MobilePortfolio from "../component/MobilePortfolio";
 import DesktopPortfolio from "../component/DesktopPortfolio";
 import PortfolioSection from "../component/Portfoliosection";
+import EventPhotography from "../component/EventPhotography";
+
 
 const Porfolio = () => {
   return (
@@ -18,6 +20,7 @@ const Porfolio = () => {
         <DesktopPortfolio />
       </div>
       <PortfolioSection/>
+      <EventPhotography/>
       <FAQuestion />
       <Testimonialsection />
       <Footer />

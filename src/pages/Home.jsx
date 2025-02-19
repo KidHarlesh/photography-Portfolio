@@ -7,6 +7,7 @@ import About from "../component/About";
 import Footer from "../component/Footer";
 import Services from "../component/Services";
 import FAQuestion from "../component/FAQuestion";
+import PortraitPhotography from "../component/PortraitPhotography";
 
 
 
@@ -17,7 +18,7 @@ const Home = () => {
       <HeroSection />
       <About/>
       <Services/>
-      <Portfoliosection />
+    <PortraitPhotography/>
       <FAQuestion/>
       <Testimonialsection />
       <Footer/>

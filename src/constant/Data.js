@@ -6,7 +6,11 @@ import Facebook from "../assets/Facebook-Button.svg";
 import Twitter from "../assets/Twitter-button.svg";
 import Linkedin from "../assets/Linkedin-Button.svg";
 import Rating from "../assets/Star-Container.svg";
-import BlackBlue from "../assets/PotraitImageOne.png";
+import BlackBlue from "../assets/BlueBlackBabe.png";
+import LittleGirl from "../assets/GirlKid.png";
+import Blackie from "../assets/AfricanBlackie.png";
+import Gown from "../assets/whiteGown.png";
+
 export const portfolioWork = [
   {
     image: African,
@@ -179,15 +183,42 @@ export const portfolioPortrait = [
     imageIcon: Direction,
   },
   {
-    image: whitewoman,
-    paragraph: " A Wedding Tale",
+    image: LittleGirl,
+    paragraph: " Innocence Unveiled",
     paragraphtwo: "January 2020",
     button: "VIEW PROJECT",
     imageIcon: Direction,
     class: "hidden lg:block",
   },
   {
-    image: Carton,
+    image: Blackie,
+    paragraph: "Elegance in Monochrom",
+    paragraphtwo: "January 2020",
+    button: "VIEW PROJECT",
+    imageIcon: Direction,
+    class: "hidden lg:block",
+  },
+];
+
+
+export const EventPhotographyy = [
+  {
+    image: Gown,
+    paragraph: "Faces of Resilience",
+    paragraphtwo: "March 2022",
+    button: "VIEW PROJECT",
+    imageIcon: Direction,
+  },
+  {
+    image: LittleGirl,
+    paragraph: " Innocence Unveiled",
+    paragraphtwo: "January 2020",
+    button: "VIEW PROJECT",
+    imageIcon: Direction,
+    class: "hidden lg:block",
+  },
+  {
+    image: Blackie,
     paragraph: "Product Elegance",
     paragraphtwo: "January 2020",
     button: "VIEW PROJECT",
