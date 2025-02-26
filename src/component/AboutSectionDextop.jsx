@@ -32,7 +32,11 @@ const AboutSectionDextop = () => {
             </div>
           </div>
           <div>
-            <img src={Image} alt="" className="absolute top-[10px]  w-[100%]" />
+            <img
+              src={Image}
+              alt="Damien image"
+              className="absolute top-[10px]  w-[100%]"
+            />
           </div>
           <div className="pt-[32%] xl:pt-[33%]  flex items-center justify-between">
             <img src={Star} alt="" className="w-[90px] xl:w-[100px]" />

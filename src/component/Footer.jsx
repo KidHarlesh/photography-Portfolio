@@ -5,7 +5,6 @@ import Button from "../assets/Blue-Button.svg";
 import { Link } from "react-router-dom";
 import laptop from "../assets/long-Contain.svg";
 import ButtonLeftAndRight from "./ButtonLeftAndRight";
-
 import RightLeftSideIcon from "./RightLeftSideIcon";
 import FooterNav from "./FooterNav";
 import AfterXlScreenFooter from "./AfterXlScreenFooter";
@@ -35,11 +34,16 @@ const Footer = () => {
 
       {/* links conatiner */}
       <div className="container flex flex-col lg:flex-row justify-center  relative   ">
-        <RightLeftSideIcon />
+        <div className="z-20">
+          <RightLeftSideIcon />
+        </div>
 
-        <AfterXlScreenFooter />
+        <div className=" z-20">
+          <AfterXlScreenFooter />
+        </div>
+
         {/* TOP CONTAINER */}
-        <div className="px-5 py-10  xl:px-[60px] xl:py-[80px] border-[#2F2F37] border z-[20px] ">
+        <div className="px-5 py-10  xl:px-[60px] xl:py-[80px] border-[#2F2F37] border z-0 ">
           <p className="text-[14px] font-semibold text-[#797C86] pb-5">
             A MORE MEANINGFULL HOME FOR PHOTOGRAPHY
           </p>
@@ -58,7 +62,9 @@ const Footer = () => {
           </p>
         </div>
         {/* downcontainer */}
-        <FooterNav />
+        <div className="z-0">
+          <FooterNav />
+        </div>
       </div>
 
       {/* Footer Bottom */}
@@ -79,7 +85,9 @@ const Footer = () => {
           <ButtonLeftAndRight />
         </div>
       </div>
-      <ForXlAbstractImage />
+      <div>
+        <ForXlAbstractImage />
+      </div>
     </footer>
   );
 };

@@ -1,30 +1,29 @@
 import React, { useState } from "react";
 import Rightclick from "../assets/Right-Button.svg";
 import Leftclick from "../assets/Left-Button.svg";
-import { portfolioPortrait, } from "../constant/Data";
+import { CommercialPhotographyy } from "../constant/Data";
 
-const PortfolioSection = () => {
+const CommercialPhotography = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handleNext = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % portfolioPortrait.length);
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % CommercialPhotographyy .length);
   };
 
   const handlePrevious = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? portfolioPortrait.length - 1 : prevIndex - 1
+      prevIndex === 0 ? CommercialPhotographyy .length - 1 : prevIndex - 1
     );
   };
-
   return (
     <section className=" bg-black pt-[125px] lg:pt-[100px]">
       <div className="container  ">
         {" "}
         ``
-        <div className="lg:flex justify-between items-center border-t  border-[#2F2F37] ">
+        <div className="lg:flex justify-between items-center border-t  border-[#2F2F37]">
           <div className="pt-[40px] lg:pt-[80px]">
             <p className="text-[28px]  lg:text-[34px]  font-semibold text-[#797C86]">
-              PORTRAIT PHOTOGRPAHY
+              COMMERCIAL PHOTOGRAPHY
             </p>
           </div>
 
@@ -50,26 +49,26 @@ const PortfolioSection = () => {
           {/* Display only the current image in mobile view */}
           <div className="lg:hidden">
             <img
-              src={portfolioPortrait[currentIndex].image}
+              src={CommercialPhotographyy[currentIndex].image}
               className="block mx-auto hover:scale-105 transition-transform duration-100"
-              alt={portfolioPortrait[currentIndex].paragraph}
+              alt={CommercialPhotographyy[currentIndex].paragraph}
             />
             <div className="flex justify-between pt-4 items-center">
               <div>
                 {" "}
                 <p className="text-[16px] font-medium text-[#CACACE] ">
-                  {portfolioPortrait[currentIndex].paragraph}
+                  {CommercialPhotographyy[currentIndex].paragraph}
                 </p>
                 <p className="text-[#797C86] text-[14px] ">
-                  {portfolioPortrait[currentIndex].paragraphtwo}
+                  {CommercialPhotographyy[currentIndex].paragraphtwo}
                 </p>
               </div>
               <button className="text-[14px] text-[#F2F2F3] flex items-center justify-center gap-[8px] font-light border-b border-[#1C1C21] ">
-                {portfolioPortrait[currentIndex].button}
+                {CommercialPhotographyy[currentIndex].button}
                 <span>
                   <img
                     className="w-4"
-                    src={portfolioPortrait[currentIndex].imageIcon}
+                    src={CommercialPhotographyy[currentIndex].imageIcon}
                     alt="Arrow Icon"
                   />
                 </span>
@@ -97,29 +96,29 @@ const PortfolioSection = () => {
 
           {/* Display all images in desktop view */}
           <div className="hidden lg:flex gap-[30px] ">
-            {portfolioPortrait.map((works) => (
-              <div key={works.paragraph} className={works.class}>
+            {CommercialPhotographyy.map((Data) => (
+              <div key={Data.paragraph} className={Data.class}>
                 <img
-                  src={works.image}
+                  src={Data.image}
                   className="block mx-auto lg:mx-0 hover:scale-105 transition-transform duration-100"
-                  alt={works.paragraph}
+                  alt={Data.paragraph}
                 />
                 <div className="flex justify-between pt-4 items-center">
                   <div>
                     <p className="text-[16px] font-medium text-[#CACACE]">
-                      {works.paragraph}
+                      {Data.paragraph}
                     </p>
                     <p className="text-[#797C86] text-[14px]">
-                      {works.paragraphtwo}
+                      {Data.paragraphtwo}
                     </p>
                   </div>
 
                   <button className="text-[20px] lg:text-[14px] text-[#F2F2F3] flex items-center gap-[8px] font-light border-b border-[#1C1C21]">
-                    {works.button}
+                    {Data.button}
                     <span>
                       <img
                         className="w-4 xl:w-3"
-                        src={works.imageIcon}
+                        src={Data.imageIcon}
                         alt="Icon"
                       />
                     </span>
@@ -134,4 +133,4 @@ const PortfolioSection = () => {
   );
 };
 
-export default PortfolioSection;
+export default CommercialPhotography;

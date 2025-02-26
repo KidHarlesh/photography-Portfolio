@@ -5,7 +5,7 @@ const FooterNav = () => {
   return (
     <div>
       {" "}
-      <div className="border-[#2F2F37] border pl-10 lg:pl-0   py-[40px] xl:py-[80px] max-w-[100%]  ">
+      <div className="border-[#2F2F37] border pl-10 lg:pl-0   py-[40px] xl:py-[80px] max-w-[100%]  z-10 ">
         <nav className="flex flex-wrap  text-[#F2F2F3] gap-10 lg:gap-[20px] xl:gap-[50px] lg:mx-10 xl:mx-20  ">
           <div className="flex flex-wrap gap-[65px] lg:gap-[20px] xl:gap-[50px] ">
             <ul className=" text-[14px]  ">

@@ -20,10 +20,10 @@ const EventPhotography = () => {
       <div className="container  ">
         {" "}
         ``
-        <div className="lg:flex justify-between items-center border-t  ">
-          <div className="">
+        <div className="lg:flex justify-between items-center border-t  border-[#2F2F37] ">
+          <div className="pt-[40px] lg:pt-[80px]">
             <p className="text-[28px]  lg:text-[34px]  font-semibold text-[#797C86]">
-              PORTRAIT PHOTOGRPAHY
+              EVENTS PHOTOGRAPHY
             </p>
           </div>
 

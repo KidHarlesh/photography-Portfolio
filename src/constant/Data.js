@@ -10,6 +10,11 @@ import BlackBlue from "../assets/BlueBlackBabe.png";
 import LittleGirl from "../assets/GirlKid.png";
 import Blackie from "../assets/AfricanBlackie.png";
 import Gown from "../assets/whiteGown.png";
+import Press from "../assets/ManPress.png";
+import Colour from "../assets/ColorGirl.png";
+import Bags from "../assets/BagPackT.png";
+import Pink from "../assets/Pinkie.png";
+import Veges from "../assets/Vegetables.png";
 
 export const portfolioWork = [
   {
@@ -204,23 +209,49 @@ export const portfolioPortrait = [
 export const EventPhotographyy = [
   {
     image: Gown,
-    paragraph: "Faces of Resilience",
-    paragraphtwo: "March 2022",
+    paragraph: "A wedding Tales",
+    paragraphtwo: "September 2021",
     button: "VIEW PROJECT",
     imageIcon: Direction,
   },
   {
-    image: LittleGirl,
-    paragraph: " Innocence Unveiled",
-    paragraphtwo: "January 2020",
+    image: Press,
+    paragraph: " Corporate Excellence Summit",
+    paragraphtwo: "November 2019",
     button: "VIEW PROJECT",
     imageIcon: Direction,
     class: "hidden lg:block",
   },
   {
-    image: Blackie,
+    image: Colour,
+    paragraph: "Festival of color",
+    paragraphtwo: "March 2018",
+    button: "VIEW PROJECT",
+    imageIcon: Direction,
+    class: "hidden lg:block",
+  },
+];  
+
+export const CommercialPhotographyy = [
+  {
+    image: Bags,
     paragraph: "Product Elegance",
-    paragraphtwo: "January 2020",
+    paragraphtwo: "August 2020",
+    button: "VIEW PROJECT",
+    imageIcon: Direction,
+  },
+  {
+    image: Pink,
+    paragraph: " Brand Storytelling",
+    paragraphtwo: "May 2019",
+    button: "VIEW PROJECT",
+    imageIcon: Direction,
+    class: "hidden lg:block",
+  },
+  {
+    image: Veges,
+    paragraph: "Culinary Delights",
+    paragraphtwo: "February 2017",
     button: "VIEW PROJECT",
     imageIcon: Direction,
     class: "hidden lg:block",

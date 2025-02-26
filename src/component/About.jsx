@@ -30,7 +30,7 @@ const About = () => {
           <img
             className=" pb-[20px] lg:pb-[0px] hover:animate-pulse "
             src={Image}
-            alt="image"
+            alt="Damien image"
           />
           <div>
             {/*  introduction cntainer */}

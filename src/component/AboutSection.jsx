@@ -7,7 +7,7 @@ const AboutSection = () => {
       <div className="container ">
         <img
           src={Image}
-          alt=""
+          alt="Damien image"
           className="w-[383px] md:w-[690px] block mx-auto sm:max-w-[365px] md:max-w-[800px]"
         />
         <p className="text-[14px] text-[#797C86] font-semibold pt-5">ABOUT</p>
